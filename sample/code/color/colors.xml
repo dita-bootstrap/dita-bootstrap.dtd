@@ -1,0 +1,8 @@
+<div theme="primary-contrast">bg-primary</div>
+<div theme="secondary-contrast">bg-secondary</div>
+<div theme="success-contrast">bg-success</div>
+<div theme="danger-contrast">bg-danger</div>
+<div theme="warning-contrast">bg-warning</div>
+<div theme="info-contrast">bg-info</div>
+<div theme="accent-contrast">bg-accent</div>
+<div theme="inverse-contrast">bg-inverse</div>

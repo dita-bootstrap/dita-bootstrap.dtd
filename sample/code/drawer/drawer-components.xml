@@ -1,0 +1,9 @@
+<button props="drawer-toggle" href="#drawer1">
+  Click here
+</button>
+<drawer id="drawer1" position="start">
+  <title>Drawer</title>
+  <p>
+    Content for the drawer goes here. You can place just about any section elements here.
+  </p>
+</drawer>

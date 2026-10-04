@@ -1,0 +1,6 @@
+<div theme="primary-contrast" padding="0">Padding 0</div>
+<div theme="secondary-contrast" padding="1" margin="1">Padding 1</div>
+<div theme="success-contrast" padding="2" margin="1">Padding 2</div>
+<div theme="danger-contrast" padding="3" margin="1">Padding 3</div>
+<div theme="warning-contrast" padding="4" margin="1">Padding 4</div>
+<div theme="info-contrast" padding="5" margin="1">Padding 5</div>

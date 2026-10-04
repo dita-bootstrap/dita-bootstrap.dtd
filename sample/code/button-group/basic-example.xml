@@ -1,0 +1,5 @@
+<button-group>
+  <button theme="primary" href="#">Left</button>
+  <button theme="primary" href="#">Middle</button>
+  <button theme="primary" href="#">Right</button>
+</button-group>

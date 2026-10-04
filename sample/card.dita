@@ -55,26 +55,7 @@
         <button href="#">Go Somewhere</button>
       </card>
     </bodydiv>
-    <tabbed-dialog style="pills" margin="t3">
-      <section>
-        <title>Specialization</title>
-          <codeblock>&lt;card&gt;
-  &lt;title&gt;Card Title&lt;/title&gt;
-  &lt;image href="..." /&gt;
-  &lt;p&gt;Some quick example text to build on the card title and make up the bulk of the card’s content.&lt;/p&gt;
-  &lt;button href="#"&gt;Go Somewhere&lt;/button&gt;
-&lt;/card&gt;</codeblock>
-        </section>
-         <section>
-          <title><xmlatt>outputclass</xmlatt></title>
-          <codeblock>&lt;section outputclass="card w-50"&gt;
-  &lt;title outputclass="h5"&gt;Card Title&lt;/title&gt;
-  &lt;image outputclass="card-img-top" href="..." /&gt;
-  &lt;p&gt;Some quick example text to build on the card title and make up the bulk of the card’s content.&lt;/p&gt;
-  &lt;xref outputclass="btn-solid theme-primary" href="#"&gt;Go Somewhere&lt;/xref&gt;
-&lt;/section&gt;</codeblock>
-        </section>
-      </tabbed-dialog>
+    <codeblock><coderef href="code/card/example.xml"/></codeblock>
     <section id="titles-text-and-links">
       <title>Titles, text, and links</title>
       <p>Links are added and placed next to each other by altering the <xmlatt>outputclass</xmlatt> and adding
@@ -90,28 +71,7 @@
         <xref outputclass="card-link" href="#">Another Link</xref>
       </card>
     </bodydiv>
-    <tabbed-dialog style="pills" margin="t3">
-      <section>
-        <title>Specialization</title>
-          <codeblock>&lt;card&gt;
-  &lt;title&gt;Card Title&lt;/title&gt;
-  &lt;div outputclass="h6"&gt;Card Subtitle&lt;/div&gt;
-  &lt;p&gt;Some quick example text to build on the card title and make up the bulk of the card’s content.&lt;/p&gt;
-  &lt;xref outputclass="card-link" href="#"&gt;Card Link&lt;/xref&gt;
-  &lt;xref outputclass="card-link" href="#"&gt;Another Link&lt;/xref&gt;
-&lt;/card&gt;</codeblock>
-        </section>
-         <section>
-          <title><xmlatt>outputclass</xmlatt></title>
-          <codeblock>&lt;section outputclass="card w-50"&gt;
-  &lt;title outputclass="h5"&gt;Card Title&lt;/title&gt;
-  &lt;div outputclass="h6"&gt;Card Subtitle&lt;/div&gt;
-  &lt;p&gt;Some quick example text to build on the card title and make up the bulk of the card’s content.&lt;/p&gt;
-  &lt;xref outputclass="card-link" href="#"&gt;Card Link&lt;/xref&gt;
-  &lt;xref outputclass="card-link" href="#"&gt;Another Link&lt;/xref&gt;
-&lt;/section&gt;</codeblock>
-        </section>
-      </tabbed-dialog>
+    <codeblock><coderef href="code/card/titles-text-and-links.xml"/></codeblock>
     <section id="images">
       <title>Images</title>
       <p>The first <xmlelement>image</xmlelement> within a <xmlelement
@@ -124,22 +84,7 @@
         <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
       </card>
     </bodydiv>
-    <tabbed-dialog style="pills" margin="t3">
-      <section>
-        <title>Specialization</title>
-          <codeblock>&lt;card&gt;
-  &lt;image href="..." /&gt;
-  &lt;p&gt;Some quick example text to build on the card title and make up the bulk of the card’s content.&lt;/p&gt;
-&lt;/card&gt;</codeblock>
-        </section>
-         <section>
-          <title><xmlatt>outputclass</xmlatt></title>
-          <codeblock>&lt;section outputclass="card w-50"&gt;
-  &lt;image outputclass="card-img-top" href="..." /&gt;
-  &lt;p&gt;Some quick example text to build on the card title and make up the bulk of the card’s content.&lt;/p&gt;
-&lt;/section&gt;</codeblock>
-        </section>
-      </tabbed-dialog>
+    <codeblock><coderef href="code/card/images.xml"/></codeblock>
     <section id="header-and-footer">
       <title>Header and footer</title>
       <p>Add an optional header and/or footer within a card using the <xmlelement
@@ -155,27 +100,7 @@
         <card-footer>2 days ago</card-footer>
       </card>
     </bodydiv>
-    <tabbed-dialog style="pills" margin="t3">
-      <section>
-        <title>Specialization</title>
-          <codeblock>&lt;card&gt;
-  &lt;card-header&gt;Featured&lt;/card-header&gt;
-  &lt;title&gt;Special title treatment&lt;/title&gt;
-  &lt;p&gt;With supporting text below as a natural lead-in to additional content.&lt;/p&gt;
-  &lt;button href="#"&gt;Go somewhere&lt;/button&gt;
-  &lt;card-footer&gt;2 days ago&lt;/card-footer&gt;
-&lt;/card&gt;</codeblock>
-        </section>
-         <section>
-          <title><xmlatt>outputclass</xmlatt></title>
-          <codeblock>&lt;section outputclass="card w-50"&gt;
-  &lt;div outputclass="card-header"&gt;Featured&lt;/div&gt;
-  &lt;title outputclass="h5"&gt;Special title treatment&lt;/title&gt;
-  &lt;p&gt;With supporting text below as a natural lead-in to additional content.&lt;/p&gt;
-  &lt;xref href="#" outputclass="btn-solid theme-primary"&gt;Go somewhere&lt;/xref&gt;
-&lt;/section&gt;</codeblock>
-        </section>
-      </tabbed-dialog>
+    <codeblock><coderef href="code/card/header-and-footer.xml"/></codeblock>
     <section id="card-colors">
       <title>Card Colors</title>
       <p>A card can be colorized by adding a <xmlatt>theme</xmlatt> attribute. This
@@ -188,10 +113,6 @@
         <button href="#">Go Somewhere</button>
       </card>
     </bodydiv>
-    <codeblock>&lt;card theme="success"&gt;
-  &lt;card-header&gt;Card Title&lt;/card-header&gt;
-  &lt;p&gt;Some quick example text to build on the card title and make up the bulk of the card’s content.&lt;/p&gt;
-  &lt;button href="#"&gt;Go Somewhere&lt;/button&gt;
-&lt;/card&gt;</codeblock>
+    <codeblock><coderef href="code/card/card-colors.xml"/></codeblock>
   </body>
 </topic>

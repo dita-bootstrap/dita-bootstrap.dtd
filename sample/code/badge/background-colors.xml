@@ -1,0 +1,26 @@
+<badge theme="primary">Primary</badge>
+<badge theme="secondary">Secondary</badge>
+<badge theme="success">Success</badge>
+<badge theme="danger">Danger</badge>
+<badge theme="warning">Warning</badge>
+<badge theme="info">Info</badge>
+<badge theme="accent">Accent</badge>
+<badge theme="inverse">Inverse</badge>
+
+<badge theme="primary-subtle">Primary</badge>
+<badge theme="secondary-subtle">Secondary</badge>
+<badge theme="success-subtle">Success</badge>
+<badge theme="danger-subtle">Danger</badge>
+<badge theme="warning-subtle">Warning</badge>
+<badge theme="info-subtle">Info</badge>
+<badge theme="accent-subtle">Accent</badge>
+<badge theme="inverse-subtle">Inverse</badge>
+
+<badge theme="primary-outline">Primary</badge>
+<badge theme="secondary-outline">Secondary</badge>
+<badge theme="success-outline">Success</badge>
+<badge theme="danger-outline">Danger</badge>
+<badge theme="warning-outline">Warning</badge>
+<badge theme="info-outline">Info</badge>
+<badge theme="accent-outline">Accent</badge>
+<badge theme="inverse-outline">Inverse</badge>

@@ -1,0 +1,16 @@
+<tooltip outputclass="btn-solid" theme="secondary-contrast" position="top">
+  <desc>Tooltip on top</desc>
+  Tooltip on top
+</tooltip>
+<tooltip outputclass="btn-solid" theme="secondary-contrast" position="right">
+  <desc>Tooltip on right</desc>
+  Tooltip on right
+</tooltip>
+<tooltip outputclass="btn-solid" theme="secondary-contrast" position="bottom">
+  <desc>Tooltip on bottom</desc>
+  Tooltip on bottom
+</tooltip>
+<tooltip outputclass="btn-solid" theme="secondary-contrast" position="left">
+  <desc>Tooltip on left</desc>
+  Tooltip on left
+</tooltip>

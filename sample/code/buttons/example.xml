@@ -1,0 +1,8 @@
+<button href="#" theme="primary">Primary</button>
+<button href="#" theme="secondary">Secondary</button>
+<button href="#" theme="success">Success</button>
+<button href="#" theme="danger">Danger</button>
+<button href="#" theme="warning">Warning</button>
+<button href="#" theme="info">Info</button>
+<button href="#" theme="accent">Accent</button>
+<button href="#" theme="inverse">Inverse</button>

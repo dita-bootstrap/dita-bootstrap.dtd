@@ -1,0 +1,4 @@
+<ph theme="primary-border">Primary</ph>
+<ph theme="primary-subtle-border">Primary subtle</ph>
+<ph theme="success-border">Success</ph>
+<ph theme="danger-border">Danger</ph>

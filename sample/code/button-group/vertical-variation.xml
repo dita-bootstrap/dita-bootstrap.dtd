@@ -1,0 +1,5 @@
+<button-group vertical="yes">
+  <button theme="primary" href="#">Top</button>
+  <button theme="primary" href="#">Middle</button>
+  <button theme="primary" href="#">Bottom</button>
+</button-group>

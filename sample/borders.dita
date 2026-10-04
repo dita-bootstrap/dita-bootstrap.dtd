@@ -41,11 +41,7 @@
         <ph outputclass="border-start p-3 border-secondary">&#xA0;border-start</ph>
       </div>
     </example>
-    <codeblock>&lt;ph outputclass="border"&gt;...&lt;/ph&gt;
-&lt;ph outputclass="border-top"&gt;...&lt;/ph&gt;
-&lt;ph outputclass="border-end"&gt;...&lt;/ph&gt;
-&lt;ph outputclass="border-bottom"&gt;...&lt;/ph&gt;
-&lt;ph outputclass="border-start"&gt;...&lt;/ph&gt;</codeblock>
+    <codeblock><coderef href="code/borders/border-utilities.xml"/></codeblock>
 
     <section id="border-specialization">
       <title>Border Specialization</title>
@@ -73,41 +69,7 @@
       </carousel>
     </bodydiv>
 
-    <tabbed-dialog style="pills" margin="t3">
-      <section>
-        <title>Specialization</title>
-        <codeblock>&lt;section border="1" padding="2"&gt;
-  ...
-&lt;/section&gt;
-
-&lt;div border="1" rounded="yes" padding="2" margin="2"&gt;
-  ...
-&lt;/div&gt;
-
-&lt;carousel border="1" rounded="yes" margin="2" width="50"&gt;
-  &lt;carousel-item&gt;
-    &lt;image href="..."/&gt;
-  &lt;/carousel-item&gt;
-  &lt;carousel-item&gt;
-    &lt;image href="..."/&gt;
-  &lt;/carousel-item&gt;
-&lt;/carousel&gt;</codeblock>
-      </section>
-      <section>
-        <title><xmlatt>outputclass</xmlatt></title>
-        <codeblock>&lt;section outputclass="border p-2"&gt;
-  ...
-&lt;/section&gt;
-
-&lt;div outputclass="border rounded p-2 m-2"&gt;
-  ...
-&lt;/div&gt;
-
-&lt;ul outputclass="carousel border rounded m-2 w-50"&gt;
-  ...
-&lt;/ul&gt;</codeblock>
-      </section>
-    </tabbed-dialog>
+    <codeblock><coderef href="code/borders/bordered-section.xml"/></codeblock>
     <section id="border-styling">
       <title>Border Styling</title>
       <p>The <xmlatt>border</xmlatt> attribute also accepts numeric values 1-5 for width. The <xmlatt
@@ -126,24 +88,7 @@
         <ph border="5" padding="2" margin="e2">Width 5</ph>
       </div>
     </example>
-    <tabbed-dialog margin="t3" style="pills">
-      <section>
-        <title>Specialization</title>
-        <codeblock>&lt;ph border="1"&gt;Width 1&lt;/ph&gt;
-&lt;ph border="2"&gt;Width 2&lt;/ph&gt;
-&lt;ph border="3"&gt;Width 3&lt;/ph&gt;
-&lt;ph border="4"&gt;Width 4&lt;/ph&gt;
-&lt;ph border="5"&gt;Width 5&lt;/ph&gt;</codeblock>
-      </section>
-      <section>
-        <title><xmlatt>outputclass</xmlatt></title>
-        <codeblock>&lt;ph outputclass="border border-1"&gt;Width 1&lt;/ph&gt;
-&lt;ph outputclass="border border-2"&gt;Width 2&lt;/ph&gt;
-&lt;ph outputclass="border border-3"&gt;Width 3&lt;/ph&gt;
-&lt;ph outputclass="border border-4"&gt;Width 4&lt;/ph&gt;
-&lt;ph outputclass="border border-5"&gt;Width 5&lt;/ph&gt;</codeblock>
-      </section>
-    </tabbed-dialog>
+    <codeblock><coderef href="code/borders/border-styling.xml"/></codeblock>
 
     <example margin="t3">
       <div margin="b3">
@@ -153,22 +98,7 @@
         <ph theme="danger-border" padding="2" margin="e2">Danger</ph>
       </div>
     </example>
-    <tabbed-dialog margin="t3" style="pills">
-      <section>
-        <title>Specialization</title>
-        <codeblock>&lt;ph theme="primary-border"&gt;Primary&lt;/ph&gt;
-&lt;ph theme="primary-subtle-border"&gt;Primary subtle&lt;/ph&gt;
-&lt;ph theme="success-border"&gt;Success&lt;/ph&gt;
-&lt;ph theme="danger-border"&gt;Danger&lt;/ph&gt;</codeblock>
-      </section>
-      <section>
-        <title><xmlatt>outputclass</xmlatt></title>
-        <codeblock>&lt;ph outputclass="border border-primary"&gt;Primary&lt;/ph&gt;
-&lt;ph outputclass="border border-primary-subtle"&gt;Primary subtle&lt;/ph&gt;
-&lt;ph outputclass="border border-success"&gt;Success&lt;/ph&gt;
-&lt;ph outputclass="border border-danger"&gt;Danger&lt;/ph&gt;</codeblock>
-      </section>
-    </tabbed-dialog>
+    <codeblock><coderef href="code/borders/border-colors.xml"/></codeblock>
 
     <example margin="t3">
       <div margin="b3">
@@ -180,26 +110,7 @@
         <ph border="1" rounded="5" padding="2" margin="e2">Rounded 5</ph>
       </div>
     </example>
-    <tabbed-dialog margin="t3" style="pills">
-      <section>
-        <title>Specialization</title>
-        <codeblock>&lt;ph border="1" rounded="0"&gt;Rounded 0&lt;/ph&gt;
-&lt;ph border="1" rounded="1"&gt;Rounded 1&lt;/ph&gt;
-&lt;ph border="1" rounded="2"&gt;Rounded 2&lt;/ph&gt;
-&lt;ph border="1" rounded="3"&gt;Rounded 3&lt;/ph&gt;
-&lt;ph border="1" rounded="4"&gt;Rounded 4&lt;/ph&gt;
-&lt;ph border="1" rounded="5"&gt;Rounded 5&lt;/ph&gt;</codeblock>
-      </section>
-      <section>
-        <title><xmlatt>outputclass</xmlatt></title>
-        <codeblock>&lt;ph outputclass="border rounded-0"&gt;Rounded 0&lt;/ph&gt;
-&lt;ph outputclass="border rounded-1"&gt;Rounded 1&lt;/ph&gt;
-&lt;ph outputclass="border rounded-2"&gt;Rounded 2&lt;/ph&gt;
-&lt;ph outputclass="border rounded-3"&gt;Rounded 3&lt;/ph&gt;
-&lt;ph outputclass="border rounded-4"&gt;Rounded 4&lt;/ph&gt;
-&lt;ph outputclass="border rounded-5"&gt;Rounded 5&lt;/ph&gt;</codeblock>
-      </section>
-    </tabbed-dialog>
+    <codeblock><coderef href="code/borders/border-rounding.xml"/></codeblock>
 
     <example margin="t3">
       <div margin="b3" padding="t3">
@@ -207,18 +118,7 @@
         <ph border="1" rounded="pill" padding="x4 y2" margin="e2" theme="inverse-border">Pill</ph>
       </div>
     </example>
-    <tabbed-dialog margin="t3" style="pills">
-      <section>
-        <title>Specialization</title>
-        <codeblock>&lt;ph border="1" rounded="circle" theme="info-border"&gt;Circle&lt;/ph&gt;
-&lt;ph border="1" rounded="pill" theme="warning-border"&gt;Pill&lt;/ph&gt;</codeblock>
-      </section>
-      <section>
-        <title><xmlatt>outputclass</xmlatt></title>
-        <codeblock>&lt;ph outputclass="border rounded-circle border-info"&gt;Circle&lt;/ph&gt;
-&lt;ph outputclass="border rounded-pill border-warning"&gt;Pill&lt;/ph&gt;</codeblock>
-      </section>
-    </tabbed-dialog>
+    <codeblock><coderef href="code/borders/border-circle.xml"/></codeblock>
 
     <section id="frames">
       <title>Frame attribute support</title>
@@ -227,21 +127,9 @@
     </section>
     <example>
       <p/>
-      <codeblock outputclass="language-cpp" frame="sides">// Simple C++ program to display "Hello World"
-
-// Header file for input output functions
-#include&lt;iostream&gt;
-
-using namespace std;
-
-// main function -
-// where the execution of program begins
-int main()
-{
-    // prints hello world
-    cout&lt;&lt;"Hello World";
-    return 0;
-} </codeblock>
+      <codeblock outputclass="language-cpp" frame="sides"><coderef
+          href="code/borders/frame-attribute-support.cpp"
+        /></codeblock>
       <p/>
       <lines outputclass="alert-secondary" frame="topbot">Shall I compare thee to a summer’s day?
 Thou art more lovely and more temperate:
@@ -281,8 +169,6 @@ and summer’s lease hath all too short a date:
       </table>
       <p/>
     </example>
-    <codeblock>&lt;codeblock frame="sides"&gt;...&lt;/codeblock&gt;
-&lt;lines frame="topbot" outputclass="..."&gt;...&lt;/lines&gt;
-&lt;table frame="all"&gt;...&lt;/table&gt;</codeblock>
+    <codeblock><coderef href="code/borders/frame-attribute-support.xml"/></codeblock>
   </body>
 </topic>

@@ -1,0 +1,16 @@
+<button-toolbar>
+  <button-group outputclass="me-2">
+    <button theme="primary" href="#">1</button>
+    <button theme="primary" href="#">2</button>
+    <button theme="primary" href="#">3</button>
+    <button theme="primary" href="#">4</button>
+  </button-group>
+  <button-group outputclass="me-2">
+    <button theme="secondary" href="#">5</button>
+    <button theme="secondary" href="#">6</button>
+    <button theme="secondary" href="#">7</button>
+  </button-group>
+  <button-group outputclass="me-2">
+    <button theme="info" href="#">8</button>
+  </button-group>
+</button-toolbar>

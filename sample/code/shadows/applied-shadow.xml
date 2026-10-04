@@ -1,0 +1,6 @@
+<card shadow="lg" margin="3" theme="accent-contrast">
+  <title>Shadowed Card</title>
+  <p>This card has a large shadow.</p>
+</card>
+
+<alert shadow="sm" theme="accent-contrast">Alert with small shadow</alert>

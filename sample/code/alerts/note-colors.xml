@@ -1,0 +1,12 @@
+<note theme="primary-contrast">
+  This is a high contrast primary note.
+</note>
+<note theme="secondary-contrast">
+  This is a high contrast secondary note.
+</note>
+<note theme="accent-contrast">
+  This is a high contrast accent note.
+</note>
+<note theme="inverse-contrast">
+  This is a high contrast inverse note.
+</note>

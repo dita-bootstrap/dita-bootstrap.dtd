@@ -1,0 +1,16 @@
+<popover outputclass="btn-solid" theme="secondary-contrast" position="top">
+  <desc>Top popover</desc>
+  Popover on top
+</popover>
+<popover outputclass="btn-solid" theme="secondary-contrast" position="right">
+  <desc>Right Popover</desc>
+  Popover on right
+</popover>
+<popover outputclass="btn-solid" theme="secondary-contrast" position="bottom">
+  <desc>Bottom popover</desc>
+  Popover on bottom
+</popover>
+<popover outputclass="btn-solid" theme="secondary-contrast" position="left">
+  <desc>Left popover</desc>
+  Popover on left
+</popover>

@@ -1,0 +1,30 @@
+<thumbnail href="..." theme="warning"/>
+
+<card theme="success" width="50">
+  <card-header>Card Title</card-header>
+  <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+</card>
+
+<accordion theme="info">
+  <accordion-item open="yes">
+    <title>Accordion Item #1</title>
+    <p>This is the first item's accordion body.</p>
+  </accordion-item>
+</accordion>
+
+<list-group width="50" theme="danger">
+  <li>An item</li>
+  <li>A second item</li>
+</list-group>
+
+<carousel theme="inverse-muted" width="50" indicators="yes">
+  <carousel-item>
+    <image href="..."/>
+  </carousel-item>
+  <carousel-item>
+    <image href="..."/>
+  </carousel-item>
+  <carousel-item>
+    <image href="..."/>
+  </carousel-item>
+</carousel>

@@ -1,0 +1,4 @@
+<div theme="primary-contrast" margin="t5 b0">Margin Top 5, Bottom 0</div>
+<div theme="secondary-contrast" margin="x3">Margin Horizontal 3</div>
+<div theme="success-contrast" padding="y5">Padding Vertical 5</div>
+<div theme="danger-contrast" padding="s3 e1">Padding Start 3, End 1</div>

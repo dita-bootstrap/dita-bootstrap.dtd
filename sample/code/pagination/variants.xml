@@ -1,0 +1,38 @@
+<pagination theme="primary">
+  <title>Page navigation example</title>
+  <ol>
+    <li><xref href="#">Previous</xref></li>
+    <li><xref href="#">1</xref></li>
+    <li><xref href="#">2</xref></li>
+    <li><xref href="#">3</xref></li>
+    <li><xref href="#">Next</xref></li>
+  </ol>
+</pagination>
+<pagination theme="secondary">
+  <title>Page navigation example</title>
+  <ol>...</ol>
+</pagination>
+<pagination theme="success">
+  <title>Page navigation example</title>
+  <ol>...</ol>
+</pagination>
+<pagination theme="danger">
+  <title>Page navigation example</title>
+  <ol>...</ol>
+</pagination>
+<pagination theme="warning">
+  <title>Page navigation example</title>
+  <ol>...</ol>
+</pagination>
+<pagination theme="info">
+  <title>Page navigation example</title>
+  <ol>...</ol>
+</pagination>
+<pagination theme="accent">
+  <title>Page navigation example</title>
+  <ol>...</ol>
+</pagination>
+<pagination theme="inverse">
+  <title>Page navigation example</title>
+  <ol>...</ol>
+</pagination>
