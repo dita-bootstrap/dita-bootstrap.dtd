@@ -33,7 +33,6 @@
         />
       </svg>
       <span>DITA Bootstrap</span>
-      <span class="badge bg-dark small m-0">Latest</span>
     </a>
     <button
       class="navbar-toggler p-2"
