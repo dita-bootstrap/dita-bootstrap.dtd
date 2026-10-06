@@ -71,6 +71,18 @@
     <topicref href="shadows.dita"/>
     <topicref href="spacing.dita"/>
   </chapter>
+  <chapter>
+    <topicmeta>
+      <navtitle>Extend</navtitle>
+      <othermeta name="icon" content="bi-tools"/>
+      <othermeta name="icon-style" content="color: var(--bs-blue)"/>
+    </topicmeta>
+    <topicref navtitle="Icons" href="icons.dita">
+      <topicmeta>
+        <othermeta name="icon" content="bi-images"/>
+      </topicmeta>
+    </topicref>
+  </chapter>
   <backmatter deliveryTarget="pdf">
     <booklists>
       <indexlist/>
