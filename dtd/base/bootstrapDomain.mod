@@ -212,6 +212,21 @@
   size (small | large) #IMPLIED
 >
 
+<!ENTITY % stepper.content "(%stepper-item;)*">
+<!ENTITY % stepper.attributes "outputclass CDATA 'stepper' orientation (horizontal | vertical) #IMPLIED breakpoint (sm | md | lg | xl | xxl) #IMPLIED %univ-atts;">
+<!ELEMENT stepper %stepper.content;>
+<!ATTLIST stepper %stepper.attributes;
+  theme (%bootstrap-theme-and-color-values;) #IMPLIED
+  margin CDATA #IMPLIED
+>
+
+<!ENTITY % stepper-item.content "(%section.cnt;)*">
+<!ENTITY % stepper-item.attributes "outputclass CDATA 'stepper-item' active (yes | no) #IMPLIED %univ-atts;">
+<!ELEMENT stepper-item %stepper-item.content;>
+<!ATTLIST stepper-item %stepper-item.attributes;
+  theme (%bootstrap-theme-and-color-values;) #IMPLIED
+>
+
 <!ENTITY % tabbed-dialog.content "(%bodydiv.cnt; | %bodydiv; | %section;)*">
 <!ENTITY % tabbed-dialog.attributes "outputclass CDATA #IMPLIED style (tabs | pills | vertical-pills) 'tabs' %univ-atts;">
 <!ELEMENT tabbed-dialog %tabbed-dialog.content;>
@@ -285,6 +300,8 @@
 <!ATTLIST pagination class CDATA "+ topic/section bootstrap-d/pagination ">
 <!ATTLIST picture class CDATA "+ topic/div bootstrap-d/picture ">
 <!ATTLIST popover class CDATA "+ topic/xref bootstrap-d/popover ">
+<!ATTLIST stepper class CDATA "+ topic/ol bootstrap-d/stepper ">
+<!ATTLIST stepper-item class CDATA "+ topic/li bootstrap-d/stepper-item ">
 <!ATTLIST tabbed-dialog class CDATA "+ topic/bodydiv bootstrap-d/tabbed-dialog ">
 <!ATTLIST thumbnail class CDATA "+ topic/image bootstrap-d/thumbnail ">
 <!ATTLIST tooltip class CDATA "+ topic/xref bootstrap-d/tooltip ">

@@ -1,0 +1,6 @@
+<stepper>
+  <stepper-item active="yes">Create account</stepper-item>
+  <stepper-item active="yes">Confirm email</stepper-item>
+  <stepper-item>Update profile</stepper-item>
+  <stepper-item>Finish</stepper-item>
+</stepper>

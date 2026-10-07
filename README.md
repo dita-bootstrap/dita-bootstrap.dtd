@@ -30,6 +30,7 @@ The plug-in includes DTD handling for the following DITA Bootstrap components:
 - [Drawer](https://dita-bootstrap.github.io/drawer.html) (`<drawer>`)
 - [Pagination](https://dita-bootstrap.github.io/pagination.html) (`<pagination>`)
 - [Popovers](https://dita-bootstrap.github.io/popovers.html) (`<popover>`)
+- [Steppers](https://dita-bootstrap.github.io/stepper.html) (`<stepper>`)
 - [Tabs](https://dita-bootstrap.github.io/tabs.html) (`<tabbed-dialog>`)
 - [Thumbnails](https://dita-bootstrap.github.io/images.html) (`<thumbnail>`)
 - [Tooltips](https://dita-bootstrap.github.io/tooltips.html) (`<tooltip>`)

@@ -30,6 +30,8 @@
 <!ENTITY % pagination "pagination">
 <!ENTITY % popover "popover">
 <!ENTITY % picture "picture">
+<!ENTITY % stepper "stepper">
+<!ENTITY % stepper-item "stepper-item">
 <!ENTITY % tabbed-dialog "tabbed-dialog">
 <!ENTITY % thumbnail "thumbnail">
 <!ENTITY % tooltip "tooltip">
@@ -43,7 +45,8 @@
 <!ENTITY % bootstrap-d-bodydiv "accordion | collapse | grid-row | grid-col | tabbed-dialog">
 <!ENTITY % bootstrap-d-section "accordion-item | alert | card | drawer | pagination">
 <!ENTITY % bootstrap-d-ul "carousel | list-group">
-<!ENTITY % bootstrap-d-li "carousel-item">
+<!ENTITY % bootstrap-d-ol "stepper">
+<!ENTITY % bootstrap-d-li "carousel-item | stepper-item">
 <!ENTITY % bootstrap-d-div "card-header | card-footer | picture | button-group | button-toolbar">
 <!ENTITY % bootstrap-d-image "thumbnail">
 
