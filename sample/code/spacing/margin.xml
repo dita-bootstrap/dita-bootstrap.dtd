@@ -4,4 +4,6 @@
 <div theme="danger-contrast" margin="3" padding="2">Margin 3</div>
 <div theme="warning-contrast" margin="4" padding="2">Margin 4</div>
 <div theme="info-contrast" margin="5" padding="2">Margin 5</div>
+<div theme="primary-contrast" margin="6" padding="2">Margin 6</div>
+<div theme="secondary-contrast" margin="12" padding="2">Margin 12</div>
 <div theme="accent-contrast" margin="auto" padding="2" width="50">Margin Auto</div>

@@ -17,8 +17,8 @@
    %univ-atts;">
 <!ELEMENT alert %alert.content;>
 <!ATTLIST alert %alert.attributes;
-  border (no | 1 | 2 | 3 | 4 | 5) #IMPLIED
-  rounded (yes | no | 0 | 1 | 2 | 3 | 4 | 5 | circle | pill) #IMPLIED
+  border (yes | no | keyline | 1 | 2 | 3 | 4 | 5) #IMPLIED
+  rounded (yes | no | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | circle | pill) #IMPLIED
   margin CDATA #IMPLIED
   padding CDATA #IMPLIED
   shadow (yes | no | sm | md | lg | none) #IMPLIED
@@ -30,8 +30,8 @@
 <!ELEMENT accordion %accordion.content;>
 <!ATTLIST accordion %accordion.attributes;
   theme (%bootstrap-theme-and-color-values;) #IMPLIED
-  border (no | 1 | 2 | 3 | 4 | 5) #IMPLIED
-  rounded (yes | no | 0 | 1 | 2 | 3 | 4 | 5 | circle | pill) #IMPLIED
+  border (yes | no | keyline | 1 | 2 | 3 | 4 | 5) #IMPLIED
+  rounded (yes | no | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | circle | pill) #IMPLIED
   margin CDATA #IMPLIED
   padding CDATA #IMPLIED
   shadow (yes | no | sm | md | lg | none) #IMPLIED
@@ -118,8 +118,8 @@
    spectitle CDATA #IMPLIED %univ-atts;">
 <!ELEMENT card %card.content;>
 <!ATTLIST card %card.attributes;
-  border (no | 1 | 2 | 3 | 4 | 5) #IMPLIED
-  rounded (yes | no | 0 | 1 | 2 | 3 | 4 | 5 | circle | pill) #IMPLIED
+  border (yes | no | keyline | 1 | 2 | 3 | 4 | 5) #IMPLIED
+  rounded (yes | no | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | circle | pill) #IMPLIED
   margin CDATA #IMPLIED
   shadow (yes | no | sm | md | lg | none) #IMPLIED
   width (25 | 50 | 75 | 100 | auto) #IMPLIED
@@ -140,8 +140,8 @@
 <!ELEMENT carousel %carousel.content;>
 <!ATTLIST carousel %carousel.attributes;
   theme (%bootstrap-theme-and-color-values;) #IMPLIED
-  border (no | 1 | 2 | 3 | 4 | 5) #IMPLIED
-  rounded (yes | no | 0 | 1 | 2 | 3 | 4 | 5 | circle | pill) #IMPLIED
+  border (yes | no | keyline | 1 | 2 | 3 | 4 | 5) #IMPLIED
+  rounded (yes | no | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | circle | pill) #IMPLIED
   margin CDATA #IMPLIED
   padding CDATA #IMPLIED
   shadow (yes | no | sm | md | lg | none) #IMPLIED
@@ -217,8 +217,8 @@
 <!ELEMENT tabbed-dialog %tabbed-dialog.content;>
 <!ATTLIST tabbed-dialog %tabbed-dialog.attributes;
   theme (%bootstrap-theme-and-color-values;) #IMPLIED
-  border (no | 1 | 2 | 3 | 4 | 5) #IMPLIED
-  rounded (yes | no | 0 | 1 | 2 | 3 | 4 | 5 | circle | pill) #IMPLIED
+  border (yes | no | keyline | 1 | 2 | 3 | 4 | 5) #IMPLIED
+  rounded (yes | no | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | circle | pill) #IMPLIED
   margin CDATA #IMPLIED
   padding CDATA #IMPLIED
   shadow (yes | no | sm | md | lg | none) #IMPLIED

@@ -41,8 +41,8 @@
 >
 
 <!ENTITY % bootstrap-decoration-atts-no-theme
-  "border (no | 1 | 2 | 3 | 4 | 5) #IMPLIED
-   rounded (yes | no | 0 | 1 | 2 | 3 | 4 | 5 | circle | pill) #IMPLIED
+  "border (yes | no | keyline | 1 | 2 | 3 | 4 | 5) #IMPLIED
+   rounded (yes | no | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | circle | pill) #IMPLIED
    margin CDATA #IMPLIED
    padding CDATA #IMPLIED
    shadow (yes | no | sm | md | lg | none) #IMPLIED
@@ -101,8 +101,8 @@
 
 <!ATTLIST note
   theme (%bootstrap-theme-values;) #IMPLIED
-  border (no | 1 | 2 | 3 | 4 | 5) #IMPLIED
-  rounded (yes | no | 0 | 1 | 2 | 3 | 4 | 5 | circle | pill) #IMPLIED
+  border (yes | no | keyline | 1 | 2 | 3 | 4 | 5) #IMPLIED
+  rounded (yes | no | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | circle | pill) #IMPLIED
   margin CDATA #IMPLIED
   padding CDATA #IMPLIED
   width (25 | 50 | 75 | 100 | auto) #IMPLIED
