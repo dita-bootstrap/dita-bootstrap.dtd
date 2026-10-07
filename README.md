@@ -17,22 +17,22 @@ dita install org.dita-bootstrap.pdf
 
 The plug-in includes DTD handling for the following DITA Bootstrap components:
 
-- [Accordions](https://dita-bootstrap.github.io/accordion.html) (`<accordion>`)
-- [Alerts](https://dita-bootstrap.github.io/alerts.html) (`<alert>`)
-- [Badges](https://dita-bootstrap.github.io/badge.html) (`<badge>`)
-- [Buttons](https://dita-bootstrap.github.io/buttons.html) (`<button>`)
-- [Button Groups](https://dita-bootstrap.github.io/buttons.html#button-groups) (`<button-group>`)
-- [Cards](https://dita-bootstrap.github.io//card.html) (`<card>`)
-- [Carousels](https://dita-bootstrap.github.io/carousel.html) (`<carousel>`)
-- [Icons](https://dita-bootstrap.github.io/icons.html) (`<icon>`)
-- [Grid layout](https://dita-bootstrap.github.io/grid.html) (`<grid-row>`, `<grid-col>`)
-- [List groups](https://dita-bootstrap.github.io/list-group.html) (`<list-group>`)
-- [Offcanvas](https://dita-bootstrap.github.io/offcanvas.html) (`<offcanvas>`)
-- [Pagination](https://dita-bootstrap.github.io/pagination.html) (`<pagination>`)
-- [Popovers](https://dita-bootstrap.github.io/popovers.html) (`<popover>`)
-- [Tabs](https://dita-bootstrap.github.io/tabs.html) (`<tabbed-dialog>`)
-- [Thumbnails](https://dita-bootstrap.github.io/images.html) (`<thumbnail>`)
-- [Tooltips](https://dita-bootstrap.github.io/tooltips.html) (`<tooltip>`)
+- [Accordions](https://dita-bootstrap.org/html/accordion.html) (`<accordion>`)
+- [Alerts](https://dita-bootstrap.org/html/alerts.html) (`<alert>`)
+- [Badges](https://dita-bootstrap.org/html/badge.html) (`<badge>`)
+- [Buttons](https://dita-bootstrap.org/html/buttons.html) (`<button>`)
+- [Button Groups](https://dita-bootstrap.org/html/buttons.html#button-groups) (`<button-group>`)
+- [Cards](https://dita-bootstrap.org/html//card.html) (`<card>`)
+- [Carousels](https://dita-bootstrap.org/html/carousel.html) (`<carousel>`)
+- [Icons](https://dita-bootstrap.org/html/icons.html) (`<icon>`)
+- [Grid layout](https://dita-bootstrap.org/html/grid.html) (`<grid-row>`, `<grid-col>`)
+- [List groups](https://dita-bootstrap.org/html/list-group.html) (`<list-group>`)
+- [Offcanvas](https://dita-bootstrap.org/html/offcanvas.html) (`<offcanvas>`)
+- [Pagination](https://dita-bootstrap.org/html/pagination.html) (`<pagination>`)
+- [Popovers](https://dita-bootstrap.org/html/popovers.html) (`<popover>`)
+- [Tabs](https://dita-bootstrap.org/html/tabs.html) (`<tabbed-dialog>`)
+- [Thumbnails](https://dita-bootstrap.org/html/images.html) (`<thumbnail>`)
+- [Tooltips](https://dita-bootstrap.org/html/tooltips.html) (`<tooltip>`)
 
 ## Using Bootstrap Specializations
 
@@ -64,5 +64,5 @@ Most DITA Bootstrap Specializations, as well as many base DITA elements, support
 > by Twitter, Inc. and the Bootstrap Authors, and used under CC BY 3.0.
 
 [1]: http://www.dita-ot.org
-[2]: https://dita-bootstrap.github.io/
+[2]: https://dita-bootstrap.org/
 [3]: https://getbootstrap.com/docs/5.3
