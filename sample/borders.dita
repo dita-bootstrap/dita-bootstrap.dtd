@@ -103,18 +103,24 @@
     <codeblock><coderef href="code/borders/border-colors.xml"/></codeblock>
 
     <example margin="t3">
-      <div margin="b3">
-        <ph border="1" rounded="0" padding="2" margin="e2">Rounded 0</ph>
-        <ph border="1" rounded="1" padding="2" margin="e2">Rounded 1</ph>
-        <ph border="1" rounded="2" padding="2" margin="e2">Rounded 2</ph>
-        <ph border="1" rounded="3" padding="2" margin="e2">Rounded 3</ph>
-        <ph border="1" rounded="4" padding="2" margin="e2">Rounded 4</ph>
-        <ph border="1" rounded="5" padding="2" margin="e2">Rounded 5</ph>
-        <ph border="1" rounded="6" padding="2" margin="e2">Rounded 6</ph>
-        <ph border="1" rounded="7" padding="2" margin="e2">Rounded 7</ph>
-        <ph border="1" rounded="8" padding="2" margin="e2">Rounded 8</ph>
-        <ph border="1" rounded="9" padding="2" margin="e2">Rounded 9</ph>
-      </div>
+      <grid-row>
+        <grid-col>
+          <ph border="1" rounded="0" padding="2" margin="e2">Rounded 0</ph>
+          <ph border="1" rounded="1" padding="2" margin="e2">Rounded 1</ph>
+          <ph border="1" rounded="2" padding="2" margin="e2">Rounded 2</ph>
+          <ph border="1" rounded="3" padding="2" margin="e2">Rounded 3</ph>
+          <ph border="1" rounded="4" padding="2" margin="e2">Rounded 4</ph>
+        </grid-col>
+      </grid-row>
+      <grid-row>
+        <grid-col>
+          <ph border="1" rounded="5" padding="2" margin="e2">Rounded 5</ph>
+          <ph border="1" rounded="6" padding="2" margin="e2">Rounded 6</ph>
+          <ph border="1" rounded="7" padding="2" margin="e2">Rounded 7</ph>
+          <ph border="1" rounded="8" padding="2" margin="e2">Rounded 8</ph>
+          <ph border="1" rounded="9" padding="2" margin="e2">Rounded 9</ph>
+        </grid-col>
+      </grid-row>
     </example>
     <codeblock><coderef href="code/borders/border-rounding.xml"/></codeblock>
 
