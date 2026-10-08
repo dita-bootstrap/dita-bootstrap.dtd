@@ -102,7 +102,7 @@
     </example>
     <codeblock><coderef href="code/borders/border-colors.xml"/></codeblock>
 
-    <example margin="t3">
+    <bodydiv margin="t3">
       <grid-row>
         <grid-col>
           <ph border="1" rounded="0" padding="2" margin="e2">Rounded 0</ph>
@@ -121,7 +121,7 @@
           <ph border="1" rounded="9" padding="2" margin="e2">Rounded 9</ph>
         </grid-col>
       </grid-row>
-    </example>
+    </bodydiv>
     <codeblock><coderef href="code/borders/border-rounding.xml"/></codeblock>
 
     <example margin="t3">
