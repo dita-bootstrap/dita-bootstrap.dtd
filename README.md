@@ -8,7 +8,7 @@ This plug-in is typically installed as a dependency of the main `org.dita-bootst
 
 ```console
 dita install fox.jason.extend.css
-dita install org.dita-bootstrap.specialization
+dita install org.dita-bootstrap.dtd
 dita install org.dita-bootstrap.html
 dita install org.dita-bootstrap.pdf
 ```
