@@ -4,9 +4,9 @@
 <button outputclass="d-lg-none" props="offcanvas-toggle" href="#offcanvas4">
   Toggle offcanvas
 </button>
-<offcanvas outputclass="offcanvas-lg" id="offcanvas4">
+<offcanvas breakpoint="lg" id="offcanvas4">
   <title>Offcanvas</title>
   <p>
-    This is content within an <xmlatt>outputclass="offcanvas-lg"</xmlatt>.
+    This is content within an <xmlatt>breakpoint="lg"</xmlatt>.
   </p>
 </offcanvas>
