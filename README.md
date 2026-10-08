@@ -1,4 +1,4 @@
-# DITA Bootstrap Specialization
+# DITA Specialization for Bootstrap
 
 A plug-in for [DITA Open Toolkit][1] that provides the core DTD specializations for the [DITA Bootstrap plug-ins][2].
 
