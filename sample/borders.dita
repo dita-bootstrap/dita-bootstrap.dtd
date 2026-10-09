@@ -49,7 +49,7 @@
         >rounded</xmlatt> attributes provide a semantic way to add borders and rounded corners.</p>
     </section>
 
-    <bodydiv border="yes" padding="3">
+    <bodydiv border="1" padding="3">
       <section id="bordered-section" border="yes" padding="2">
         <title>Bordered Section</title>
         <p>This section has a border.</p>
@@ -92,7 +92,7 @@
     </example>
     <codeblock><coderef href="code/borders/border-styling.xml"/></codeblock>
 
-    <example margin="t3">
+    <example>
       <div margin="b3">
         <ph theme="primary-border" padding="2" margin="e2">Primary</ph>
         <ph theme="primary-subtle-border" padding="2" margin="e2">Primary subtle</ph>
@@ -102,9 +102,9 @@
     </example>
     <codeblock><coderef href="code/borders/border-colors.xml"/></codeblock>
 
-    <bodydiv margin="t3">
+    <bodydiv border="1" padding="3">
       <grid-row>
-        <grid-col>
+        <grid-col margin="b5">
           <ph border="1" rounded="0" padding="2" margin="e2">Rounded 0</ph>
           <ph border="1" rounded="1" padding="2" margin="e2">Rounded 1</ph>
           <ph border="1" rounded="2" padding="2" margin="e2">Rounded 2</ph>
@@ -124,7 +124,7 @@
     </bodydiv>
     <codeblock><coderef href="code/borders/border-rounding.xml"/></codeblock>
 
-    <example margin="t3">
+    <example>
       <div margin="b3" padding="t3">
         <ph border="1" rounded="circle" padding="4" margin="e5" theme="info-border">Circle</ph>
         <ph border="1" rounded="pill" padding="x4 y2" margin="e2" theme="inverse-border">Pill</ph>
