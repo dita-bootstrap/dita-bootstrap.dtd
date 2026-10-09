@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 <bookmap>
-  <title>DITA Bootstrap</title>
+  <title>DITA Bootstrap Specialization</title>
   <frontmatter deliveryTarget="pdf">
     <booklists>
       <toc/>
     </booklists>
   </frontmatter>
+  <chapter href="specialization.dita" navtitle="Bootstrap Specialization" locktitle="yes">
+  </chapter>
   <chapter>
     <topicmeta>
       <navtitle>Getting Started</navtitle>
