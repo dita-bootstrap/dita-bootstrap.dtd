@@ -2,30 +2,37 @@
 <button href="#" theme="primary-outline">Primary</button>
 <button href="#" theme="primary-subtle">Primary</button>
 <button href="#" theme="primary-text">Primary</button>
+
 <button href="#" theme="secondary">Secondary</button>
 <button href="#" theme="secondary-outline">Secondary</button>
 <button href="#" theme="secondary-subtle">Secondary</button>
 <button href="#" theme="secondary-text">Secondary</button>
+
 <button href="#" theme="success">Success</button>
 <button href="#" theme="success-outline">Success</button>
 <button href="#" theme="success-subtle">Success</button>
 <button href="#" theme="success-text">Success</button>
+
 <button href="#" theme="danger">Danger</button>
 <button href="#" theme="danger-outline">Danger</button>
 <button href="#" theme="danger-subtle">Danger</button>
 <button href="#" theme="danger-text">Danger</button>
+
 <button href="#" theme="warning">Warning</button>
 <button href="#" theme="warning-outline">Warning</button>
 <button href="#" theme="warning-subtle">Warning</button>
 <button href="#" theme="warning-text">Warning</button>
+
 <button href="#" theme="info">Info</button>
 <button href="#" theme="info-outline">Info</button>
 <button href="#" theme="info-subtle">Info</button>
 <button href="#" theme="info-text">Info</button>
+
 <button href="#" theme="accent">Accent</button>
 <button href="#" theme="accent-outline">Accent</button>
 <button href="#" theme="accent-subtle">Accent</button>
 <button href="#" theme="accent-text">Accent</button>
+
 <button href="#" theme="inverse">Inverse</button>
 <button href="#" theme="inverse-outline">Inverse</button>
 <button href="#" theme="inverse-subtle">Inverse</button>
