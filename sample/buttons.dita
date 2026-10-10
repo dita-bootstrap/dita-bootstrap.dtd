@@ -205,8 +205,8 @@
       <button href="#" theme="danger-outline">Danger</button>
       <button href="#" theme="warning-outline">Warning</button>
       <button href="#" theme="info-outline">Info</button>
-      <button href="#" theme="accent-outline">Light</button>
-      <button href="#" theme="inverse-outline">Dark</button>
+      <button href="#" theme="accent-outline">Accent</button>
+      <button href="#" theme="inverse-outline">Inverse</button>
     </example>
     <codeblock><coderef href="code/buttons/outline-buttons.xml"/></codeblock>
     <section id="sizing">
