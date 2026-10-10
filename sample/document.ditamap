@@ -13,7 +13,7 @@
     <topicmeta>
       <navtitle>Getting Started</navtitle>
       <othermeta name="icon" content="bi-book-half"/>
-      <othermeta name="icon-style" content="color: var(--bs-indigo-400)"/>
+      <othermeta name="icon-style" content="color: var(--bs-accent-base)"/>
     </topicmeta>
     <topicref navtitle="Introduction" href="index.dita" locktitle="yes"/>
   </chapter>
@@ -21,7 +21,7 @@
     <topicmeta>
       <navtitle>Layout</navtitle>
       <othermeta name="icon" content="bi-grid-fill"/>
-      <othermeta name="icon-style" content="color: var(--bs-teal-400)"/>
+      <othermeta name="icon-style" content="color: var(--bs-success-base)"/>
     </topicmeta>
     <topicref href="nav.dita"/>
     <topicref href="containers.dita"/>
@@ -32,7 +32,7 @@
     <topicmeta>
       <navtitle>Content</navtitle>
       <othermeta name="icon" content="bi-file-earmark-richtext"/>
-      <othermeta name="icon-style" content="color: var(--bs-gray-400)"/>
+      <othermeta name="icon-style" content="color: var(--bs-fg-3)"/>
     </topicmeta>
     <topicref href="typography.dita"/>
     <topicref href="images.dita"/>
@@ -43,7 +43,7 @@
     <topicmeta>
       <navtitle>Components</navtitle>
       <othermeta name="icon" content="bi-menu-button-wide-fill"/>
-      <othermeta name="icon-style" content="color: var(--bs-cyan-400)"/>
+      <othermeta name="icon-style" content="color: var(--bs-info-base)"/>
     </topicmeta>
     <topicref href="accordion.dita"/>
     <topicref href="alerts.dita"/>
@@ -67,7 +67,7 @@
     <topicmeta>
       <navtitle>Utilities</navtitle>
       <othermeta name="icon" content="bi-braces-asterisk"/>
-      <othermeta name="icon-style" content="color: var(--bs-pink-400)"/>
+      <othermeta name="icon-style" content="color: var(--bs-code-color)"/>
     </topicmeta>
     <topicref href="borders.dita"/>
     <topicref href="color.dita"/>
@@ -79,7 +79,7 @@
     <topicmeta>
       <navtitle>Extend</navtitle>
       <othermeta name="icon" content="bi-tools"/>
-      <othermeta name="icon-style" content="color: var(--bs-blue-400)"/>
+      <othermeta name="icon-style" content="color: var(--bs-primary-base)"/>
     </topicmeta>
     <topicref navtitle="Icons" href="icons.dita">
       <topicmeta>
