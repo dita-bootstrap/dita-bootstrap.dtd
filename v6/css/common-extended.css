@@ -147,6 +147,8 @@
   --bs-theme-bg-muted: initial;
   --bs-theme-border: initial;
   --bs-theme-contrast: initial;
+  --bs-theme-fg-emphasis: initial;
+  --bs-theme-focus-ring: initial;
 }
 
 .card .card-body pre {
@@ -404,20 +406,32 @@ article [tabindex='0'] {
   color: var(--bs-fg-body);
 }
 
-html:root {
-  --prism-background: transparent;
-  --prism-maintext: light-dark(var(--bs-gray-900), var(--bs-white));
-  --prism-text: light-dark(var(--bs-gray-600), var(--bs-gray-400));
-  --prism-punctuation: light-dark(var(--bs-gray-600), var(--bs-gray-400));
+:root {
+  --prism-skew: black;
+  --prism-bg-skew: white;
+  --prism-maintext: var(--bs-fg-body);
+  --prism-background: color-mix(in srgb, var(--bs-bg-transparent) 85%, var(--prism-bg-skew));
+  --prism-text: color-mix(in srgb, var(--bs-gray-500) 70%, var(--prism-skew));
+  --prism-punctuation: color-mix(in srgb, var(--bs-gray-500) 70%, var(--prism-skew));
   --prism-namespace: var(--prism-text);
-  --prism-keywords: light-dark(var(--bs-blue-600), var(--bs-blue-400));
-  --prism-strings: light-dark(var(--bs-green-600), var(--bs-green-400));
-  --prism-symbol: light-dark(var(--bs-pink-600), var(--bs-pink-400));
-  --prism-type: light-dark(var(--bs-red-600), var(--bs-red-400));
-  --prism-regex: light-dark(var(--bs-orange-600), var(--bs-orange-400));
-  --prism-deleted: light-dark(var(--bs-red-600), var(--bs-red-400));
-  --prism-url: light-dark(var(--bs-yellow-600), var(--bs-yellow-400));
+  --prism-keywords: color-mix(in srgb, var(--bs-blue-500) 70%, var(--prism-skew));
+  --prism-strings: color-mix(in srgb, var(--bs-green-500) 70%, var(--prism-skew));
+  --prism-symbol: color-mix(in srgb, var(--bs-pink-500) 70%, var(--prism-skew));
+  --prism-type: color-mix(in srgb, var(--bs-red-500) 70%, var(--prism-skew));
+  --prism-regex: color-mix(in srgb, var(--bs-orange-500) 70%, var(--prism-skew));
+  --prism-deleted: color-mix(in srgb, var(--bs-red-500) 70%, var(--prism-skew));
+  --prism-url: color-mix(in srgb, var(--bs-warning-fg-emphasis) 70%, var(--prism-skew));
 }
+
+[data-bs-theme='dark'] {
+  --prism-skew: white;
+  --prism-bg-skew: black;
+}
+
+.card pre[class*="language-"] {
+  border: none;
+}
+
 
 /**
  * Use css variables in themes with a fallback to the prism.js default theme
