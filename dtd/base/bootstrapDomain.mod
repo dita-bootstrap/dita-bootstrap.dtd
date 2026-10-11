@@ -161,7 +161,7 @@
 >
 
 <!ENTITY % offcanvas.content "(%section.cnt;)*">
-<!ENTITY % offcanvas.attributes "outputclass CDATA #IMPLIED spectitle CDATA #IMPLIED position (top | bottom | start | end) #IMPLIED %univ-atts;">
+<!ENTITY % offcanvas.attributes "outputclass CDATA #IMPLIED spectitle CDATA #IMPLIED position (top | bottom | start | end) #IMPLIED breakpoint (sm | md | lg | xl | xxl) #IMPLIED %univ-atts;">
 <!ELEMENT offcanvas %offcanvas.content;>
 <!ATTLIST offcanvas %offcanvas.attributes;
   color (primary | secondary | success | danger | warning | info | light | dark) #IMPLIED

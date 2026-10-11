@@ -1,0 +1,12 @@
+<note color="info" outputclass="d-none d-lg-block">
+  Resize your browser to show the responsive offcanvas toggle.
+</note>
+<button outputclass="d-lg-none" props="offcanvas-toggle" href="#offcanvas4">
+  Toggle offcanvas
+</button>
+<offcanvas breakpoint="lg" id="offcanvas4">
+  <title>Offcanvas</title>
+  <p>
+    This is content within an <xmlatt>breakpoint="lg"</xmlatt>.
+  </p>
+</offcanvas>

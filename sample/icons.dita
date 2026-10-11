@@ -1,3 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Within the sample documentation, where necessary, the texts describing the usage of each component have been copied
+  directly from the official Bootstrap 5.3 documentation (found at https://getbootstrap.com/docs/5.3), however DITA
+  markup is used throughout the examples describing how to implement these components correctly using outputclass.
+
+  This work is a derivative of "Bootstrap 5.3 docs" by Twitter, Inc. and the Bootstrap Authors,
+  and used under CC BY 3.0. See the accompanying LICENSE file for applicable licenses.
+-->
 <!DOCTYPE topic PUBLIC "-//DITA Bootstrap//DTD DITA Bootstrap Topic//EN" "bootstrap-topic.dtd">
 <topic id="icons">
   <title>Icons</title>
@@ -42,18 +51,7 @@
         <icon outputclass="bi-alarm" style="font-size: 2rem; color: cornflowerblue;"/>
       </p>
     </bodydiv>
-    <tabbed-dialog style="pills" margin="t3">
-      <section>
-        <title>Specialization</title>
-          <codeblock>&lt;icon outputclass="bi-alarm"/&gt;
-&lt;icon outputclass="bi-alarm" style="font-size: 2rem; color: cornflowerblue;"/&gt;</codeblock>
-        </section>
-         <section>
-          <title><xmlatt>outputclass</xmlatt></title>
-          <codeblock>&lt;i outputclass="bi-alarm"/&gt;
-&lt;i outputclass="bi-alarm" otherprops="style(font-size: 2rem; color: cornflowerblue;)"/&gt;</codeblock>
-        </section>
-      </tabbed-dialog>
+    <codeblock><coderef href="code/icons/example.xml"/></codeblock>
   <p>Icons placed within an <xmlelement>xref</xmlelement> element are colorized appropriately:</p>
   <bodydiv border="yes" padding="3">
     <p>
@@ -97,65 +95,7 @@
       </xref>
     </p>
   </bodydiv>
-    <tabbed-dialog style="pills" margin="t3">
-      <section>
-        <title>Specialization</title>
-          <codeblock>&lt;xref color="primary" href="#"&gt;
-  &lt;icon outputclass="bi-link"/&gt; Primary link
-&lt;/xref&gt;
-&lt;xref color="secondary" href="#"&gt;
-  &lt;icon outputclass="bi-link"/&gt; Secondary link
-&lt;/xref&gt;
-&lt;xref color="success" href="#"&gt;
-  &lt;icon outputclass="bi-link"/&gt; Success link
-&lt;/xref&gt;
-&lt;xref color="danger" href="#"&gt;
-  &lt;icon outputclass="bi-link"/&gt; Danger link
-&lt;/xref&gt;
-&lt;xref color="warning" href="#"&gt;
-  &lt;icon outputclass="bi-link"/&gt; Warning link
-&lt;/xref&gt;
-&lt;xref color="info" href="#"&gt;
-  &lt;icon outputclass="bi-link"/&gt; Info link
-&lt;/xref&gt;
-&lt;xref color="light" href="#"&gt;
-  &lt;icon outputclass="bi-link"/&gt; Light link
-&lt;/xref&gt;
-&lt;xref color="dark" href="#"&gt;
-  &lt;icon outputclass="bi-link"/&gt; Dark link
-&lt;/xref&gt;</codeblock>
-        </section>
-         <section>
-          <title><xmlatt>outputclass</xmlatt></title>
-          <codeblock>&lt;xref outputclass="link-primary" href="#"&gt;
-  &lt;i outputclass="bi-link"/&gt; Primary link
-&lt;/xref&gt;
-&lt;xref outputclass="link-secondary" href="#"&gt;
-  &lt;i outputclass="bi-link"/&gt; Secondary link
-&lt;/xref&gt;
-&lt;xref outputclass="link-success" href="#"&gt;
-  &lt;i outputclass="bi-link"/&gt; Success link
-&lt;/xref&gt;
-&lt;xref outputclass="link-danger" href="#"&gt;
-  &lt;i outputclass="bi-link"/&gt; Danger link
-&lt;/xref&gt;
-&lt;xref outputclass="link-warning" href="#"&gt;
-  &lt;i outputclass="bi-link"/&gt; Warning link
-&lt;/xref&gt;
-&lt;xref outputclass="link-info" href="#"&gt;
-  &lt;i outputclass="bi-link"/&gt; Info link
-&lt;/xref&gt;
-&lt;xref outputclass="link-light" href="#"&gt;
-  &lt;i outputclass="bi-link"/&gt; Light link
-&lt;/xref&gt;
-&lt;xref outputclass="link-dark" href="#"&gt;
-  &lt;i outputclass="bi-link"/&gt; Dark link
-&lt;/xref&gt;
-&lt;xref outputclass="link-body-emphasis" href="#"&gt;
-  &lt;i outputclass="bi-link"/&gt; Emphasis link
-&lt;/xref&gt;</codeblock>
-        </section>
-      </tabbed-dialog>
+    <codeblock><coderef href="code/icons/dark-link.xml"/></codeblock>
     <p>Icons can also be placed within buttons as shown:</p>
     <bodydiv border="yes" padding="3">
       <button outputclass="btn-floating m-1" href="#"><icon outputclass="bi-arrow-down-square-fill"/></button>
@@ -165,50 +105,7 @@
       <button outputclass="btn-floating m-1" href="#"><icon outputclass="bi-link"/></button>
       <button outputclass="btn-floating m-1" href="#"><icon outputclass="bi-share-fill"/></button>
     </bodydiv>
-    <tabbed-dialog style="pills" margin="t3">
-      <section>
-        <title>Specialization</title>
-          <codeblock>&lt;button outputclass="btn-floating m-1" href="#"&gt;
-  &lt;icon outputclass="bi-arrow-down-square-fill"/&gt;
-&lt;/button&gt;
-&lt;button outputclass="btn-floating m-1" href="#"&gt;
-  &lt;icon outputclass="bi-chat-left-quote-fill"/&gt;
-&lt;/button&gt;
-&lt;button outputclass="btn-floating m-1" href="#"&gt;
-  &lt;icon outputclass="bi-speedometer"/&gt;
-&lt;/button&gt;
-&lt;button outputclass="btn-floating m-1" href="#"&gt;
-  &lt;icon outputclass="bi-camera-fill"/&gt;
-&lt;/button&gt;
-&lt;button outputclass="btn-floating m-1" href="#"&gt;
-  &lt;icon outputclass="bi-link"/&gt;
-&lt;/button&gt;
-&lt;button outputclass="btn-floating m-1" href="#"&gt;
-  &lt;icon outputclass="bi-share-fill"/&gt;
-&lt;/button&gt;</codeblock>
-        </section>
-         <section>
-          <title><xmlatt>outputclass</xmlatt></title>
-          <codeblock>&lt;xref outputclass="btn-primary btn-floating m-1" href="#"&gt;
-  &lt;i outputclass="bi-arrow-down-square-fill"/&gt;
-&lt;/xref&gt;
-&lt;xref outputclass="btn-primary btn-floating m-1" href="#"&gt;
-  &lt;i outputclass="bi-chat-left-quote-fill"/&gt;
-&lt;/xref&gt;
-&lt;xref outputclass="btn-primary btn-floating m-1" href="#"&gt;
-  &lt;i outputclass="bi-speedometer"/&gt;
-&lt;/xref&gt;
-&lt;xref outputclass="btn-primary btn-floating m-1" href="#"&gt;
-  &lt;i outputclass="bi-camera-fill"/&gt;
-&lt;/xref&gt;
-&lt;xref outputclass="btn-primary btn-floating m-1" href="#"&gt;
-  &lt;i outputclass="bi-link"/&gt;
-&lt;/xref&gt;
-&lt;xref outputclass="btn-primary btn-floating m-1" href="#"&gt;
-  &lt;i outputclass="bi-share-fill"/&gt;
-&lt;/xref&gt;</codeblock>
-        </section>
-      </tabbed-dialog>
+    <codeblock><coderef href="code/icons/icons-in-buttons.xml"/></codeblock>
     <p>Icons can also be used within <xmlelement>chapter</xmlelement> headings,
       and <xmlelement>topicref</xmlelement> elements by adding
       <xmlelement>othermeta name="icon"</xmlelement>  and
