@@ -42,41 +42,73 @@
         readability with <codeph>theme-contrast</codeph>. This is ideal for high-emphasis
         elements with solid backgrounds.</p>
     </section>
-    <example>
-      <div outputclass="d-flex flex-wrap gap-2">
-        <div theme="primary-contrast" padding="2">primary-contrast</div>
-        <div theme="accent-contrast" padding="2">accent-contrast</div>
-        <div theme="success-contrast" padding="2">success-contrast</div>
-        <div theme="danger-contrast" padding="2">danger-contrast</div>
-        <div theme="warning-contrast" padding="2">warning-contrast</div>
-        <div theme="info-contrast" padding="2">info-contrast</div>
-        <div theme="inverse-contrast" padding="2">inverse-contrast</div>
-        <div theme="secondary-contrast" padding="2">secondary-contrast</div>
-      </div>
-    </example>
+    <bodydiv>
+      <grid-row gap="2" outputclass="row-cols-2 row-cols-md-4">
+        <grid-col>
+          <div theme="primary-contrast" padding="2">primary-contrast</div>
+        </grid-col>
+        <grid-col>
+          <div theme="accent-contrast" padding="2">accent-contrast</div>
+        </grid-col>
+        <grid-col>
+          <div theme="success-contrast" padding="2">success-contrast</div>
+        </grid-col>
+        <grid-col>
+          <div theme="danger-contrast" padding="2">danger-contrast</div>
+        </grid-col>
+        <grid-col>
+          <div theme="warning-contrast" padding="2">warning-contrast</div>
+        </grid-col>
+        <grid-col>
+          <div theme="info-contrast" padding="2">info-contrast</div>
+        </grid-col>
+        <grid-col>
+          <div theme="inverse-contrast" padding="2">inverse-contrast</div>
+        </grid-col>
+        <grid-col>
+          <div theme="secondary-contrast" padding="2">secondary-contrast</div>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
     <codeblock><coderef href="code/theme/contrast.xml"/></codeblock>
 
     <p>Nested links inherit the contrast foreground so they stay legible on the solid background:</p>
-    <example>
-      <div outputclass="d-flex flex-column gap-2">
-        <div theme="primary-contrast" padding="3">Theme Primary with a
-          <xref href="#">nested link</xref> inside.</div>
-        <div theme="accent-contrast" padding="3">Theme Accent with a
-          <xref href="#">nested link</xref> inside.</div>
-        <div theme="success-contrast" padding="3">Theme Success with a
-          <xref href="#">nested link</xref> inside.</div>
-        <div theme="danger-contrast" padding="3">Theme Danger with a
-          <xref href="#">nested link</xref> inside.</div>
-        <div theme="warning-contrast" padding="3">Theme Warning with a
-          <xref href="#">nested link</xref> inside.</div>
-        <div theme="info-contrast" padding="3">Theme Info with a
-          <xref href="#">nested link</xref> inside.</div>
-        <div theme="inverse-contrast" padding="3">Theme Inverse with a
-          <xref href="#">nested link</xref> inside.</div>
-        <div theme="secondary-contrast" padding="3">Theme Secondary with a
-          <xref href="#">nested link</xref> inside.</div>
-      </div>
-    </example>
+    <bodydiv>
+      <grid-row gap="2">
+        <grid-col colspan="12">
+          <div theme="primary-contrast" padding="3">Theme Primary with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+        <grid-col colspan="12">
+          <div theme="accent-contrast" padding="3">Theme Accent with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+        <grid-col colspan="12">
+          <div theme="success-contrast" padding="3">Theme Success with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+        <grid-col colspan="12">
+          <div theme="danger-contrast" padding="3">Theme Danger with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+        <grid-col colspan="12">
+          <div theme="warning-contrast" padding="3">Theme Warning with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+        <grid-col colspan="12">
+          <div theme="info-contrast" padding="3">Theme Info with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+        <grid-col colspan="12">
+          <div theme="inverse-contrast" padding="3">Theme Inverse with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+        <grid-col colspan="12">
+          <div theme="secondary-contrast" padding="3">Theme Secondary with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
     <codeblock><coderef href="code/theme/contrast-nested-link.xml"/></codeblock>
 
     <section id="subtle">
@@ -85,56 +117,104 @@
         lower-contrast, more subtle appearance. This combination will automatically
         adjust to the current color mode.</p>
     </section>
-    <example>
-      <div outputclass="d-flex flex-wrap gap-2">
-        <div theme="primary-subtle" padding="2">primary-subtle</div>
-        <div theme="accent-subtle" padding="2">accent-subtle</div>
-        <div theme="success-subtle" padding="2">success-subtle</div>
-        <div theme="danger-subtle" padding="2">danger-subtle</div>
-        <div theme="warning-subtle" padding="2">warning-subtle</div>
-        <div theme="info-subtle" padding="2">info-subtle</div>
-        <div theme="inverse-subtle" padding="2">inverse-subtle</div>
-        <div theme="secondary-subtle" padding="2">secondary-subtle</div>
-      </div>
-    </example>
+    <bodydiv>
+      <grid-row gap="2" outputclass="row-cols-2 row-cols-md-4">
+        <grid-col>
+          <div theme="primary-subtle" padding="2">primary-subtle</div>
+        </grid-col>
+        <grid-col>
+          <div theme="accent-subtle" padding="2">accent-subtle</div>
+        </grid-col>
+        <grid-col>
+          <div theme="success-subtle" padding="2">success-subtle</div>
+        </grid-col>
+        <grid-col>
+          <div theme="danger-subtle" padding="2">danger-subtle</div>
+        </grid-col>
+        <grid-col>
+          <div theme="warning-subtle" padding="2">warning-subtle</div>
+        </grid-col>
+        <grid-col>
+          <div theme="info-subtle" padding="2">info-subtle</div>
+        </grid-col>
+        <grid-col>
+          <div theme="inverse-subtle" padding="2">inverse-subtle</div>
+        </grid-col>
+        <grid-col>
+          <div theme="secondary-subtle" padding="2">secondary-subtle</div>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
     <codeblock><coderef href="code/theme/subtle.xml"/></codeblock>
 
     <p>And with borders:</p>
-    <example>
-      <div outputclass="d-flex flex-wrap gap-2">
-        <div theme="primary-subtle-border" padding="2">primary-subtle-border</div>
-        <div theme="accent-subtle-border" padding="2">accent-subtle-border</div>
-        <div theme="success-subtle-border" padding="2">success-subtle-border</div>
-        <div theme="danger-subtle-border" padding="2">danger-subtle-border</div>
-        <div theme="warning-subtle-border" padding="2">warning-subtle-border</div>
-        <div theme="info-subtle-border" padding="2">info-subtle-border</div>
-        <div theme="inverse-subtle-border" padding="2">inverse-subtle-border</div>
-        <div theme="secondary-subtle-border" padding="2">secondary-subtle-border</div>
-      </div>
-    </example>
+    <bodydiv>
+      <grid-row gap="2" outputclass="row-cols-2 row-cols-md-4">
+        <grid-col>
+          <div theme="primary-subtle-border" padding="2">primary-subtle-border</div>
+        </grid-col>
+        <grid-col>
+          <div theme="accent-subtle-border" padding="2">accent-subtle-border</div>
+        </grid-col>
+        <grid-col>
+          <div theme="success-subtle-border" padding="2">success-subtle-border</div>
+        </grid-col>
+        <grid-col>
+          <div theme="danger-subtle-border" padding="2">danger-subtle-border</div>
+        </grid-col>
+        <grid-col>
+          <div theme="warning-subtle-border" padding="2">warning-subtle-border</div>
+        </grid-col>
+        <grid-col>
+          <div theme="info-subtle-border" padding="2">info-subtle-border</div>
+        </grid-col>
+        <grid-col>
+          <div theme="inverse-subtle-border" padding="2">inverse-subtle-border</div>
+        </grid-col>
+        <grid-col>
+          <div theme="secondary-subtle-border" padding="2">secondary-subtle-border</div>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
     <codeblock><coderef href="code/theme/subtle-border.xml"/></codeblock>
 
     <p>Nested links inherit the subtle foreground so they stay legible on the subtle background:</p>
-    <example>
-      <div outputclass="d-flex flex-column gap-2">
-        <div theme="primary-subtle" padding="3">Theme Primary with a
-          <xref href="#">nested link</xref> inside.</div>
-        <div theme="accent-subtle" padding="3">Theme Accent with a
-          <xref href="#">nested link</xref> inside.</div>
-        <div theme="success-subtle" padding="3">Theme Success with a
-          <xref href="#">nested link</xref> inside.</div>
-        <div theme="danger-subtle" padding="3">Theme Danger with a
-          <xref href="#">nested link</xref> inside.</div>
-        <div theme="warning-subtle" padding="3">Theme Warning with a
-          <xref href="#">nested link</xref> inside.</div>
-        <div theme="info-subtle" padding="3">Theme Info with a
-          <xref href="#">nested link</xref> inside.</div>
-        <div theme="inverse-subtle" padding="3">Theme Inverse with a
-          <xref href="#">nested link</xref> inside.</div>
-        <div theme="secondary-subtle" padding="3">Theme Secondary with a
-          <xref href="#">nested link</xref> inside.</div>
-      </div>
-    </example>
+    <bodydiv>
+      <grid-row gap="2">
+        <grid-col colspan="12">
+          <div theme="primary-subtle" padding="3">Theme Primary with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+        <grid-col colspan="12">
+          <div theme="accent-subtle" padding="3">Theme Accent with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+        <grid-col colspan="12">
+          <div theme="success-subtle" padding="3">Theme Success with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+        <grid-col colspan="12">
+          <div theme="danger-subtle" padding="3">Theme Danger with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+        <grid-col colspan="12">
+          <div theme="warning-subtle" padding="3">Theme Warning with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+        <grid-col colspan="12">
+          <div theme="info-subtle" padding="3">Theme Info with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+        <grid-col colspan="12">
+          <div theme="inverse-subtle" padding="3">Theme Inverse with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+        <grid-col colspan="12">
+          <div theme="secondary-subtle" padding="3">Theme Secondary with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
     <codeblock><coderef href="code/theme/subtle-nested-link.xml"/></codeblock>
 
     <section id="muted">
@@ -143,41 +223,73 @@
         lower-contrast, more muted appearance. Like subtle, this combination will
         automatically adjust to the current color mode.</p>
     </section>
-    <example>
-      <div outputclass="d-flex flex-wrap gap-2">
-        <div theme="primary-muted" padding="2">primary-muted</div>
-        <div theme="accent-muted" padding="2">accent-muted</div>
-        <div theme="success-muted" padding="2">success-muted</div>
-        <div theme="danger-muted" padding="2">danger-muted</div>
-        <div theme="warning-muted" padding="2">warning-muted</div>
-        <div theme="info-muted" padding="2">info-muted</div>
-        <div theme="inverse-muted" padding="2">inverse-muted</div>
-        <div theme="secondary-muted" padding="2">secondary-muted</div>
-      </div>
-    </example>
+    <bodydiv>
+      <grid-row gap="2" outputclass="row-cols-2 row-cols-md-4">
+        <grid-col>
+          <div theme="primary-muted" padding="2">primary-muted</div>
+        </grid-col>
+        <grid-col>
+          <div theme="accent-muted" padding="2">accent-muted</div>
+        </grid-col>
+        <grid-col>
+          <div theme="success-muted" padding="2">success-muted</div>
+        </grid-col>
+        <grid-col>
+          <div theme="danger-muted" padding="2">danger-muted</div>
+        </grid-col>
+        <grid-col>
+          <div theme="warning-muted" padding="2">warning-muted</div>
+        </grid-col>
+        <grid-col>
+          <div theme="info-muted" padding="2">info-muted</div>
+        </grid-col>
+        <grid-col>
+          <div theme="inverse-muted" padding="2">inverse-muted</div>
+        </grid-col>
+        <grid-col>
+          <div theme="secondary-muted" padding="2">secondary-muted</div>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
     <codeblock><coderef href="code/theme/muted.xml"/></codeblock>
 
     <p>Nested links inherit the muted foreground so they stay legible on the muted background:</p>
-    <example>
-      <div outputclass="d-flex flex-column gap-2">
-        <div theme="primary-muted" padding="3">Theme Primary with a
-          <xref href="#">nested link</xref> inside.</div>
-        <div theme="accent-muted" padding="3">Theme Accent with a
-          <xref href="#">nested link</xref> inside.</div>
-        <div theme="success-muted" padding="3">Theme Success with a
-          <xref href="#">nested link</xref> inside.</div>
-        <div theme="danger-muted" padding="3">Theme Danger with a
-          <xref href="#">nested link</xref> inside.</div>
-        <div theme="warning-muted" padding="3">Theme Warning with a
-          <xref href="#">nested link</xref> inside.</div>
-        <div theme="info-muted" padding="3">Theme Info with a
-          <xref href="#">nested link</xref> inside.</div>
-        <div theme="inverse-muted" padding="3">Theme Inverse with a
-          <xref href="#">nested link</xref> inside.</div>
-        <div theme="secondary-muted" padding="3">Theme Secondary with a
-          <xref href="#">nested link</xref> inside.</div>
-      </div>
-    </example>
+    <bodydiv>
+      <grid-row gap="2">
+        <grid-col colspan="12">
+          <div theme="primary-muted" padding="3">Theme Primary with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+        <grid-col colspan="12">
+          <div theme="accent-muted" padding="3">Theme Accent with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+        <grid-col colspan="12">
+          <div theme="success-muted" padding="3">Theme Success with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+        <grid-col colspan="12">
+          <div theme="danger-muted" padding="3">Theme Danger with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+        <grid-col colspan="12">
+          <div theme="warning-muted" padding="3">Theme Warning with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+        <grid-col colspan="12">
+          <div theme="info-muted" padding="3">Theme Info with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+        <grid-col colspan="12">
+          <div theme="inverse-muted" padding="3">Theme Inverse with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+        <grid-col colspan="12">
+          <div theme="secondary-muted" padding="3">Theme Secondary with a
+            <xref href="#">nested link</xref> inside.</div>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
     <codeblock><coderef href="code/theme/muted-nested-link.xml"/></codeblock>
 
     <section id="comparison">
@@ -185,72 +297,120 @@
       <p>Here's a side-by-side comparison of all three styles for each theme color,
         including nested links:</p>
     </section>
-    <example>
-      <div outputclass="d-flex gap-2 mb-2">
-        <div theme="primary-contrast" padding="3" rounded="yes" outputclass="flex-fill text-center">Primary with a
-          <xref href="#">link</xref></div>
-        <div theme="primary-subtle" padding="3" rounded="yes" outputclass="flex-fill text-center">Primary with a
-          <xref href="#">link</xref></div>
-        <div theme="primary-muted" padding="3" rounded="yes" outputclass="flex-fill text-center">Primary with a
-          <xref href="#">link</xref></div>
-      </div>
-      <div outputclass="d-flex gap-2 mb-2">
-        <div theme="accent-contrast" padding="3" rounded="yes" outputclass="flex-fill text-center">Accent with a
-          <xref href="#">link</xref></div>
-        <div theme="accent-subtle" padding="3" rounded="yes" outputclass="flex-fill text-center">Accent with a
-          <xref href="#">link</xref></div>
-        <div theme="accent-muted" padding="3" rounded="yes" outputclass="flex-fill text-center">Accent with a
-          <xref href="#">link</xref></div>
-      </div>
-      <div outputclass="d-flex gap-2 mb-2">
-        <div theme="success-contrast" padding="3" rounded="yes" outputclass="flex-fill text-center">Success with a
-          <xref href="#">link</xref></div>
-        <div theme="success-subtle" padding="3" rounded="yes" outputclass="flex-fill text-center">Success with a
-          <xref href="#">link</xref></div>
-        <div theme="success-muted" padding="3" rounded="yes" outputclass="flex-fill text-center">Success with a
-          <xref href="#">link</xref></div>
-      </div>
-      <div outputclass="d-flex gap-2 mb-2">
-        <div theme="danger-contrast" padding="3" rounded="yes" outputclass="flex-fill text-center">Danger with a
-          <xref href="#">link</xref></div>
-        <div theme="danger-subtle" padding="3" rounded="yes" outputclass="flex-fill text-center">Danger with a
-          <xref href="#">link</xref></div>
-        <div theme="danger-muted" padding="3" rounded="yes" outputclass="flex-fill text-center">Danger with a
-          <xref href="#">link</xref></div>
-      </div>
-      <div outputclass="d-flex gap-2 mb-2">
-        <div theme="warning-contrast" padding="3" rounded="yes" outputclass="flex-fill text-center">Warning with a
-          <xref href="#">link</xref></div>
-        <div theme="warning-subtle" padding="3" rounded="yes" outputclass="flex-fill text-center">Warning with a
-          <xref href="#">link</xref></div>
-        <div theme="warning-muted" padding="3" rounded="yes" outputclass="flex-fill text-center">Warning with a
-          <xref href="#">link</xref></div>
-      </div>
-      <div outputclass="d-flex gap-2 mb-2">
-        <div theme="info-contrast" padding="3" rounded="yes" outputclass="flex-fill text-center">Info with a
-          <xref href="#">link</xref></div>
-        <div theme="info-subtle" padding="3" rounded="yes" outputclass="flex-fill text-center">Info with a
-          <xref href="#">link</xref></div>
-        <div theme="info-muted" padding="3" rounded="yes" outputclass="flex-fill text-center">Info with a
-          <xref href="#">link</xref></div>
-      </div>
-      <div outputclass="d-flex gap-2 mb-2">
-        <div theme="inverse-contrast" padding="3" rounded="yes" outputclass="flex-fill text-center">Inverse with a
-          <xref href="#">link</xref></div>
-        <div theme="inverse-subtle" padding="3" rounded="yes" outputclass="flex-fill text-center">Inverse with a
-          <xref href="#">link</xref></div>
-        <div theme="inverse-muted" padding="3" rounded="yes" outputclass="flex-fill text-center">Inverse with a
-          <xref href="#">link</xref></div>
-      </div>
-      <div outputclass="d-flex gap-2 mb-2">
-        <div theme="secondary-contrast" padding="3" rounded="yes" outputclass="flex-fill text-center">Secondary with a
-          <xref href="#">link</xref></div>
-        <div theme="secondary-subtle" padding="3" rounded="yes" outputclass="flex-fill text-center">Secondary with a
-          <xref href="#">link</xref></div>
-        <div theme="secondary-muted" padding="3" rounded="yes" outputclass="flex-fill text-center">Secondary with a
-          <xref href="#">link</xref></div>
-      </div>
-    </example>
+    <bodydiv>
+      <grid-row gap="2" margin="b2">
+        <grid-col>
+          <div theme="primary-contrast" padding="3" rounded="yes" outputclass="text-center">Primary with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+        <grid-col>
+          <div theme="primary-subtle" padding="3" rounded="yes" outputclass="text-center">Primary with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+        <grid-col>
+          <div theme="primary-muted" padding="3" rounded="yes" outputclass="text-center">Primary with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+      </grid-row>
+      <grid-row gap="2" margin="b2">
+        <grid-col>
+          <div theme="accent-contrast" padding="3" rounded="yes" outputclass="text-center">Accent with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+        <grid-col>
+          <div theme="accent-subtle" padding="3" rounded="yes" outputclass="text-center">Accent with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+        <grid-col>
+          <div theme="accent-muted" padding="3" rounded="yes" outputclass="text-center">Accent with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+      </grid-row>
+      <grid-row gap="2" margin="b2">
+        <grid-col>
+          <div theme="success-contrast" padding="3" rounded="yes" outputclass="text-center">Success with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+        <grid-col>
+          <div theme="success-subtle" padding="3" rounded="yes" outputclass="text-center">Success with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+        <grid-col>
+          <div theme="success-muted" padding="3" rounded="yes" outputclass="text-center">Success with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+      </grid-row>
+      <grid-row gap="2" margin="b2">
+        <grid-col>
+          <div theme="danger-contrast" padding="3" rounded="yes" outputclass="text-center">Danger with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+        <grid-col>
+          <div theme="danger-subtle" padding="3" rounded="yes" outputclass="text-center">Danger with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+        <grid-col>
+          <div theme="danger-muted" padding="3" rounded="yes" outputclass="text-center">Danger with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+      </grid-row>
+      <grid-row gap="2" margin="b2">
+        <grid-col>
+          <div theme="warning-contrast" padding="3" rounded="yes" outputclass="text-center">Warning with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+        <grid-col>
+          <div theme="warning-subtle" padding="3" rounded="yes" outputclass="text-center">Warning with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+        <grid-col>
+          <div theme="warning-muted" padding="3" rounded="yes" outputclass="text-center">Warning with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+      </grid-row>
+      <grid-row gap="2" margin="b2">
+        <grid-col>
+          <div theme="info-contrast" padding="3" rounded="yes" outputclass="text-center">Info with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+        <grid-col>
+          <div theme="info-subtle" padding="3" rounded="yes" outputclass="text-center">Info with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+        <grid-col>
+          <div theme="info-muted" padding="3" rounded="yes" outputclass="text-center">Info with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+      </grid-row>
+      <grid-row gap="2" margin="b2">
+        <grid-col>
+          <div theme="inverse-contrast" padding="3" rounded="yes" outputclass="text-center">Inverse with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+        <grid-col>
+          <div theme="inverse-subtle" padding="3" rounded="yes" outputclass="text-center">Inverse with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+        <grid-col>
+          <div theme="inverse-muted" padding="3" rounded="yes" outputclass="text-center">Inverse with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+      </grid-row>
+      <grid-row gap="2" margin="b2">
+        <grid-col>
+          <div theme="secondary-contrast" padding="3" rounded="yes" outputclass="text-center">Secondary with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+        <grid-col>
+          <div theme="secondary-subtle" padding="3" rounded="yes" outputclass="text-center">Secondary with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+        <grid-col>
+          <div theme="secondary-muted" padding="3" rounded="yes" outputclass="text-center">Secondary with a
+            <xref href="#">link</xref></div>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
     <codeblock><coderef href="code/theme/comparison.xml"/></codeblock>
 
     <section id="with-components">
@@ -258,29 +418,47 @@
       <p>Theme utilities work great with components that support theming. Use theme
         style classes on individual elements.</p>
     </section>
-    <example>
-      <div outputclass="d-flex gap-2 mb-3">
-        <badge theme="primary">Solid badge</badge>
-        <badge theme="primary-outline">Outline badge</badge>
-        <badge theme="primary-subtle">Subtle badge</badge>
-      </div>
-      <div outputclass="d-flex gap-2 mb-3">
-        <badge theme="danger">Solid badge</badge>
-        <badge theme="danger-outline">Outline badge</badge>
-        <badge theme="danger-subtle">Subtle badge</badge>
-      </div>
-    </example>
+    <bodydiv>
+      <grid-row gap="2" margin="b3">
+        <grid-col>
+          <badge theme="primary">Solid badge</badge>
+        </grid-col>
+        <grid-col>
+          <badge theme="primary-outline">Outline badge</badge>
+        </grid-col>
+        <grid-col>
+          <badge theme="primary-subtle">Subtle badge</badge>
+        </grid-col>
+      </grid-row>
+      <grid-row gap="2" margin="b3">
+        <grid-col>
+          <badge theme="danger">Solid badge</badge>
+        </grid-col>
+        <grid-col>
+          <badge theme="danger-outline">Outline badge</badge>
+        </grid-col>
+        <grid-col>
+          <badge theme="danger-subtle">Subtle badge</badge>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
     <codeblock><coderef href="code/theme/with-components.xml"/></codeblock>
 
     <p>You can also mix theme colors within the same container by applying different
       <codeph>theme-{color}</codeph> classes to child elements:</p>
-    <example>
-      <div outputclass="d-flex gap-2">
-        <div theme="success-contrast" padding="3" rounded="yes">Success</div>
-        <div theme="warning-contrast" padding="3" rounded="yes">Warning</div>
-        <div theme="danger-contrast" padding="3" rounded="yes">Danger</div>
-      </div>
-    </example>
+    <bodydiv>
+      <grid-row gap="2">
+        <grid-col>
+          <div theme="success-contrast" padding="3" rounded="yes">Success</div>
+        </grid-col>
+        <grid-col>
+          <div theme="warning-contrast" padding="3" rounded="yes">Warning</div>
+        </grid-col>
+        <grid-col>
+          <div theme="danger-contrast" padding="3" rounded="yes">Danger</div>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
     <codeblock><coderef href="code/theme/status-colors.xml"/></codeblock>
 
     <section id="how-theme-values-are-built-up">

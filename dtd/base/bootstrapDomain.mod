@@ -165,7 +165,7 @@
 
 <!--                    GRID ROW                                  -->
 <!ENTITY % grid-row.content "(%grid-col; | %bodydiv; | %div;)*">
-<!ENTITY % grid-row.attributes "outputclass CDATA 'row' %univ-atts;">
+<!ENTITY % grid-row.attributes "outputclass CDATA 'row' gap (0 | 1 | 2 | 3 | 4 | 5) #IMPLIED margin CDATA #IMPLIED padding CDATA #IMPLIED %univ-atts;">
 <!ELEMENT grid-row %grid-row.content;>
 <!ATTLIST grid-row %grid-row.attributes;>
 

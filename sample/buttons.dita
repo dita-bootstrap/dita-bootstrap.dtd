@@ -40,16 +40,36 @@
       <p>Bootstrap includes several predefined button styles, each serving its own semantic purpose, with a few extras
         thrown in for more control.</p>
     </section>
-    <example>
-      <button href="#" theme="primary">Primary</button>
-      <button href="#" theme="secondary">Secondary</button>
-      <button href="#" theme="success">Success</button>
-      <button href="#" theme="danger">Danger</button>
-      <button href="#" theme="warning">Warning</button>
-      <button href="#" theme="info">Info</button>
-      <button href="#" theme="accent">Accent</button>
-      <button href="#" theme="inverse">Inverse</button>
-    </example>
+    <bodydiv border="1" padding="3">
+      <grid-row>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="primary">Primary</button>
+        </grid-col>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="secondary">Secondary</button>
+        </grid-col>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="success">Success</button>
+        </grid-col>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="danger">Danger</button>
+        </grid-col>
+      </grid-row>
+      <grid-row>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="warning">Warning</button>
+        </grid-col>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="info">Info</button>
+        </grid-col>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="accent">Accent</button>
+        </grid-col>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="inverse">Inverse</button>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
 
     <codeblock><coderef href="code/buttons/example.xml"/></codeblock>
 
@@ -180,16 +200,36 @@
         class. This provides a more three-dimensional appearance that can be customized further with CSS
         variables.</p>
     </section>
-    <example>
-      <button href="#" theme="primary-styled">Primary</button>
-      <button href="#" theme="secondary-styled">Secondary</button>
-      <button href="#" theme="success-styled">Success</button>
-      <button href="#" theme="danger-styled">Danger</button>
-      <button href="#" theme="warning-styled">Warning</button>
-      <button href="#" theme="info-styled">Info</button>
-      <button href="#" theme="accent-styled">Accent</button>
-      <button href="#" theme="inverse-styled">Inverse</button>
-    </example>
+    <bodydiv border="1" padding="3">
+      <grid-row>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="primary-styled">Primary</button>
+        </grid-col>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="secondary-styled">Secondary</button>
+        </grid-col>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="success-styled">Success</button>
+        </grid-col>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="danger-styled">Danger</button>
+        </grid-col>
+      </grid-row>
+      <grid-row>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="warning-styled">Warning</button>
+        </grid-col>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="info-styled">Info</button>
+        </grid-col>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="accent-styled">Accent</button>
+        </grid-col>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="inverse-styled">Inverse</button>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
     <codeblock><coderef href="code/buttons/styled-buttons.xml"/></codeblock>
 
     <section id="outline-buttons">
@@ -198,40 +238,78 @@
         the <xmlatt>outputclass</xmlatt> and a value of <codeph>btn-outline-*</codeph> to remove all background images
         and colors on any button.</p>
     </section>
-    <example>
-      <button href="#" theme="primary-outline">Primary</button>
-      <button href="#" theme="secondary-outline">Secondary</button>
-      <button href="#" theme="success-outline">Success</button>
-      <button href="#" theme="danger-outline">Danger</button>
-      <button href="#" theme="warning-outline">Warning</button>
-      <button href="#" theme="info-outline">Info</button>
-      <button href="#" theme="accent-outline">Accent</button>
-      <button href="#" theme="inverse-outline">Inverse</button>
-    </example>
+    <bodydiv border="1" padding="3">
+      <grid-row>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="primary-outline">Primary</button>
+        </grid-col>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="secondary-outline">Secondary</button>
+        </grid-col>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="success-outline">Success</button>
+        </grid-col>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="danger-outline">Danger</button>
+        </grid-col>
+      </grid-row>
+      <grid-row>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="warning-outline">Warning</button>
+        </grid-col>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="info-outline">Info</button>
+        </grid-col>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="accent-outline">Accent</button>
+        </grid-col>
+        <grid-col padding="1" colspan="3">
+          <button href="#" theme="inverse-outline">Inverse</button>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
     <codeblock><coderef href="code/buttons/outline-buttons.xml"/></codeblock>
     <section id="sizing">
       <title>Sizing</title>
       <p>Fancy larger or smaller buttons? Use <xmlatt>size="large"</xmlatt>, <xmlatt>size="small"</xmlatt>, or
           <xmlatt>size="xs"</xmlatt> for additional sizes.</p>
     </section>
-    <example>
-      <button href="#" size="large">Large button</button>
-      <button href="#" theme="secondary" size="large">Large button</button>
-    </example>
+    <bodydiv border="1" padding="3">
+      <grid-row>
+        <grid-col padding="1" colspan="3">
+          <button href="#" size="large">Large button</button>
+        </grid-col>
+        <grid-col padding="1" colspan="9">
+          <button href="#" theme="secondary" size="large">Large button</button>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
 
     <codeblock><coderef href="code/buttons/sizing.xml"/></codeblock>
 
-    <example>
-      <button href="#" size="small">Small button</button>
-      <button href="#" theme="secondary" size="small">Small button</button>
-    </example>
+    <bodydiv border="1" padding="3">
+      <grid-row>
+        <grid-col padding="1" colspan="3">
+          <button href="#" size="small">Small button</button>
+        </grid-col>
+        <grid-col padding="1" colspan="9">
+          <button href="#" theme="secondary" size="small">Small button</button>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
 
     <codeblock><coderef href="code/buttons/small-buttons.xml"/></codeblock>
 
-    <example>
-      <button href="#" size="xs">Extra small button</button>
-      <button href="#" theme="secondary" size="xs">Extra small button</button>
-    </example>
+    <bodydiv border="1" padding="3">
+      <grid-row>
+        <grid-col padding="1" colspan="3">
+          <button href="#" size="xs">Extra small button</button>
+        </grid-col>
+        <grid-col padding="1" colspan="9">
+          <button href="#" theme="secondary" size="xs">Extra small button</button>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
 
     <codeblock><coderef href="code/buttons/extra-small-buttons.xml"/></codeblock>
   </body>
