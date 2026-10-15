@@ -132,5 +132,31 @@
       </accordion>
     </bodydiv>
     <codeblock><coderef href="code/accordion/always-open.xml"/></codeblock>
+    <section id="small">
+      <title>Small</title>
+      <p>Set <xmlatt>size="small"</xmlatt> to tighten the padding, border radius and font size.</p>
+    </section>
+    <bodydiv border="1" padding="3">
+      <accordion size="small">
+        <accordion-item id="acc-sm1"><title>Accordion Item #1</title><p
+          >This is the first item's accordion body.</p></accordion-item>
+        <accordion-item id="acc-sm2"><title>Accordion Item #2</title><p
+          >This is the second item's accordion body.</p></accordion-item>
+      </accordion>
+    </bodydiv>
+    <codeblock><coderef href="code/accordion/small.xml"/></codeblock>
+    <section id="gap">
+      <title>Gap</title>
+      <p>Set <xmlatt>gap="yes"</xmlatt> to separate each item into its own rounded card.</p>
+    </section>
+    <bodydiv border="1" padding="3">
+      <accordion gap="yes">
+        <accordion-item id="acc-gap1"><title>Accordion Item #1</title><p
+          >This is the first item's accordion body.</p></accordion-item>
+        <accordion-item id="acc-gap2"><title>Accordion Item #2</title><p
+          >This is the second item's accordion body.</p></accordion-item>
+      </accordion>
+    </bodydiv>
+    <codeblock><coderef href="code/accordion/gap.xml"/></codeblock>
   </body>
 </topic>

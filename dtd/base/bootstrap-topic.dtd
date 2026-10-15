@@ -118,6 +118,8 @@
 <!--                    TOPIC ELEMENT INTEGRATION                  -->
 <!-- ============================================================= -->
 
+<!ENTITY % tbl.tgroup.mdl "(colspec*, thead?, tbody, tfoot?)">
+
 <!ENTITY % topic-type
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Topic//EN"
          "topic.mod"

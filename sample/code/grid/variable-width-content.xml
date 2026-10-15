@@ -1,0 +1,8 @@
+<grid-row>
+  <grid-col breakpoint="md" colspan="auto">
+    <p>Variable width content</p>
+  </grid-col>
+  <grid-col>
+    <p>Remaining space</p>
+  </grid-col>
+</grid-row>

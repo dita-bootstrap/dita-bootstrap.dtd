@@ -119,5 +119,41 @@
       <li><xmlatt>outputclass="drawer-xxl"</xmlatt></li>
     </ul>
     <codeblock><coderef href="code/drawer/responsive.xml"/></codeblock>
+    <section id="sheet">
+      <title>Sheet</title>
+      <p>Set <xmlatt>sheet="yes"</xmlatt> alongside <xmlatt>position</xmlatt> to present the drawer as a sheet.</p>
+    </section>
+    <bodydiv deliveryTarget="html" border="1" padding="3">
+      <button props="drawer-toggle" href="#drawer-sheet-1">Toggle sheet drawer</button>
+      <drawer id="drawer-sheet-1" position="bottom" sheet="yes">
+        <title>Drawer</title>
+        <p>Content for the drawer goes here.</p>
+      </drawer>
+    </bodydiv>
+    <codeblock><coderef href="code/drawer/sheet.xml"/></codeblock>
+    <section id="translucent-drawer">
+      <title>Translucent</title>
+      <p>Set <xmlatt>translucent="yes"</xmlatt> for a translucent background.</p>
+    </section>
+    <bodydiv deliveryTarget="html" border="1" padding="3">
+      <button props="drawer-toggle" href="#drawer-translucent-1">Toggle translucent drawer</button>
+      <drawer id="drawer-translucent-1" position="start" translucent="yes">
+        <title>Drawer</title>
+        <p>Content for the drawer goes here.</p>
+      </drawer>
+    </bodydiv>
+    <codeblock><coderef href="code/drawer/translucent-drawer.xml"/></codeblock>
+    <section id="instant-drawer">
+      <title>Instant</title>
+      <p>Set <xmlatt>instant="yes"</xmlatt> to disable the open and close animation.</p>
+    </section>
+    <bodydiv deliveryTarget="html" border="1" padding="3">
+      <button props="drawer-toggle" href="#drawer-instant-1">Toggle instant drawer</button>
+      <drawer id="drawer-instant-1" position="start" instant="yes">
+        <title>Drawer</title>
+        <p>Content for the drawer goes here.</p>
+      </drawer>
+    </bodydiv>
+    <codeblock><coderef href="code/drawer/instant-drawer.xml"/></codeblock>
   </body>
 </topic>

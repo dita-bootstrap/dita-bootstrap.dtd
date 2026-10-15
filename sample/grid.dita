@@ -74,5 +74,30 @@
       </grid-row>
     </bodydiv>
     <codeblock><coderef href="code/grid/equal-width.xml"/></codeblock>
+    <section id="variable-width-content">
+      <title>Variable width content</title>
+      <p>Set <xmlatt>colspan="auto"</xmlatt> to size a column to its content.</p>
+    </section>
+    <bodydiv border="1" padding="3">
+      <grid-row>
+        <grid-col breakpoint="md" colspan="auto"><p>Variable width content</p></grid-col>
+        <grid-col><p>Remaining space</p></grid-col>
+      </grid-row>
+    </bodydiv>
+    <codeblock><coderef href="code/grid/variable-width-content.xml"/></codeblock>
+    <section id="row-columns">
+      <title>Row columns</title>
+      <p>Set <xmlatt>cols</xmlatt> on the <xmlelement
+        >grid-row</xmlelement> to define how many columns appear per row.</p>
+    </section>
+    <bodydiv border="1" padding="3">
+      <grid-row cols="2">
+        <grid-col><p>Column</p></grid-col>
+        <grid-col><p>Column</p></grid-col>
+        <grid-col><p>Column</p></grid-col>
+        <grid-col><p>Column</p></grid-col>
+      </grid-row>
+    </bodydiv>
+    <codeblock><coderef href="code/grid/row-columns.xml"/></codeblock>
   </body>
 </topic>

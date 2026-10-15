@@ -114,5 +114,51 @@
       </card>
     </bodydiv>
     <codeblock><coderef href="code/card/card-colors.xml"/></codeblock>
+    <section id="translucent-cards">
+      <title>Translucent cards</title>
+      <p>Set <xmlatt>translucent="yes"</xmlatt> on a card for a translucent background.</p>
+    </section>
+    <bodydiv border="1" padding="3">
+      <card translucent="yes">
+        <card-header>Translucent card</card-header>
+        <p>Some quick example text for the card.</p>
+      </card>
+    </bodydiv>
+    <codeblock><coderef href="code/card/translucent-cards.xml"/></codeblock>
+    <section id="card-groups">
+      <title>Card groups</title>
+      <p>Wrap a set of cards in a <xmlelement
+        >card-group</xmlelement> to render them as one attached group of equal-height cards.</p>
+    </section>
+    <bodydiv border="1" padding="3">
+      <card-group>
+        <card>
+          <card-header>Card</card-header>
+          <p>Some quick example text for the card.</p>
+        </card>
+        <card>
+          <card-header>Card</card-header>
+          <p>Some quick example text for the card.</p>
+        </card>
+      </card-group>
+    </bodydiv>
+    <codeblock><coderef href="code/card/card-groups.xml"/></codeblock>
+    <section id="grid-cards">
+      <title>Grid cards</title>
+      <p>Set <xmlatt>cols</xmlatt> on a <xmlelement
+        >grid-row</xmlelement> to control how many cards appear per row, and wrap each card in a <xmlelement
+        >grid-col</xmlelement>.</p>
+    </section>
+    <bodydiv border="1" padding="3">
+      <grid-row cols="2" gap="4">
+        <grid-col>
+          <card><card-header>Card</card-header><p>Some quick example text for the card.</p></card>
+        </grid-col>
+        <grid-col>
+          <card><card-header>Card</card-header><p>Some quick example text for the card.</p></card>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
+    <codeblock><coderef href="code/card/grid-cards.xml"/></codeblock>
   </body>
 </topic>

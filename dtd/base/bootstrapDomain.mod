@@ -26,7 +26,7 @@
 >
 
 <!ENTITY % accordion.content "((%accordion-item;)+)">
-<!ENTITY % accordion.attributes "outputclass CDATA 'accordion' flush (yes | no) 'no' open (yes | no) 'no' %univ-atts;">
+<!ENTITY % accordion.attributes "outputclass CDATA 'accordion' flush (yes | no) 'no' open (yes | no) 'no' size (small) #IMPLIED gap (yes | no) #IMPLIED %univ-atts;">
 <!ELEMENT accordion %accordion.content;>
 <!ATTLIST accordion %accordion.attributes;
   theme (%bootstrap-theme-and-color-values;) #IMPLIED
@@ -118,12 +118,29 @@
    spectitle CDATA #IMPLIED %univ-atts;">
 <!ELEMENT card %card.content;>
 <!ATTLIST card %card.attributes;
+  translucent (yes | no) #IMPLIED
   border (yes | no | keyline | 1 | 2 | 3 | 4 | 5) #IMPLIED
   rounded (yes | no | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | circle | pill) #IMPLIED
   margin CDATA #IMPLIED
   shadow (yes | no | sm | md | lg | none) #IMPLIED
   width (25 | 50 | 75 | 100 | auto) #IMPLIED
 >
+
+<!ENTITY % card-group.content "(%card;)+">
+<!ENTITY % card-group.attributes "outputclass CDATA 'card-group' %univ-atts;">
+<!ELEMENT card-group %card-group.content;>
+<!ATTLIST card-group %card-group.attributes;
+  margin CDATA #IMPLIED
+  shadow (yes | no | sm | md | lg | none) #IMPLIED
+>
+
+<!ENTITY % tfoot.content "(%row;)+">
+<!ENTITY % tfoot.attributes
+  "valign (top | middle | bottom) #IMPLIED
+   theme (%bootstrap-color-values;) #IMPLIED
+   %univ-atts;">
+<!ELEMENT tfoot %tfoot.content;>
+<!ATTLIST tfoot %tfoot.attributes;>
 
 <!ENTITY % card-header.content "(%div.cnt;)*">
 <!ENTITY % card-header.attributes "outputclass CDATA 'card-header' %univ-atts;">
@@ -165,7 +182,7 @@
 
 <!--                    GRID ROW                                  -->
 <!ENTITY % grid-row.content "(%grid-col; | %bodydiv; | %div;)*">
-<!ENTITY % grid-row.attributes "outputclass CDATA 'row' gap (0 | 1 | 2 | 3 | 4 | 5) #IMPLIED margin CDATA #IMPLIED padding CDATA #IMPLIED %univ-atts;">
+<!ENTITY % grid-row.attributes "outputclass CDATA 'row' gap (0 | 1 | 2 | 3 | 4 | 5) #IMPLIED cols (1 | 2 | 3 | 4 | 5 | 6 | auto) #IMPLIED margin CDATA #IMPLIED padding CDATA #IMPLIED %univ-atts;">
 <!ELEMENT grid-row %grid-row.content;>
 <!ATTLIST grid-row %grid-row.attributes;>
 
@@ -186,7 +203,7 @@
 >
 
 <!ENTITY % drawer.content "(%section.cnt;)*">
-<!ENTITY % drawer.attributes "outputclass CDATA #IMPLIED spectitle CDATA #IMPLIED position (top | bottom | start | end) #IMPLIED %univ-atts;">
+<!ENTITY % drawer.attributes "outputclass CDATA #IMPLIED spectitle CDATA #IMPLIED position (top | bottom | start | end) #IMPLIED sheet (yes | no) #IMPLIED translucent (yes | no) #IMPLIED instant (yes | no) #IMPLIED %univ-atts;">
 <!ELEMENT drawer %drawer.content;>
 <!ATTLIST drawer %drawer.attributes;
   theme (%bootstrap-theme-values;) #IMPLIED
@@ -287,6 +304,8 @@
 <!ATTLIST button-group class CDATA "+ topic/div bootstrap-d/button-group ">
 <!ATTLIST button-toolbar class CDATA "+ topic/div bootstrap-d/button-toolbar ">
 <!ATTLIST card class CDATA "+ topic/section bootstrap-d/card ">
+<!ATTLIST card-group class CDATA "+ topic/bodydiv bootstrap-d/card-group ">
+<!ATTLIST tfoot class CDATA "- topic/tfoot ">
 <!ATTLIST card-header class CDATA "+ topic/div bootstrap-d/card-header ">
 <!ATTLIST card-footer class CDATA "+ topic/div bootstrap-d/card-footer ">
 <!ATTLIST carousel class CDATA "+ topic/ul bootstrap-d/carousel ">

@@ -16,10 +16,11 @@
 </lq>
 
 <table theme="primary" padding="1" width="100">
-  <tgroup cols="2">
+  <tgroup cols="3">
     <thead>
       <row>
         <entry>Animal</entry>
+        <entry>Species</entry>
         <entry>Gestation</entry>
       </row>
     </thead>
@@ -31,6 +32,7 @@
         ...
       </row>
       <row>
+        <entry>...</entry>
         <entry>...</entry>
         <entry theme="danger">...</entry>
       </row>

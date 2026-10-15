@@ -1,0 +1,6 @@
+<grid-row cols="2">
+  <grid-col><p>Column</p></grid-col>
+  <grid-col><p>Column</p></grid-col>
+  <grid-col><p>Column</p></grid-col>
+  <grid-col><p>Column</p></grid-col>
+</grid-row>

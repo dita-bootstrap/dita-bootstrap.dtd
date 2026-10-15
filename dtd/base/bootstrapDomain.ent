@@ -17,6 +17,7 @@
 <!ENTITY % button-group "button-group">
 <!ENTITY % button-toolbar "button-toolbar">
 <!ENTITY % card "card">
+<!ENTITY % card-group "card-group">
 <!ENTITY % card-header "card-header">
 <!ENTITY % card-footer "card-footer">
 <!ENTITY % carousel "carousel">
@@ -33,6 +34,7 @@
 <!ENTITY % stepper "stepper">
 <!ENTITY % stepper-item "stepper-item">
 <!ENTITY % tabbed-dialog "tabbed-dialog">
+<!ENTITY % tfoot "tfoot">
 <!ENTITY % thumbnail "thumbnail">
 <!ENTITY % tooltip "tooltip">
 
@@ -42,7 +44,7 @@
 
 <!ENTITY % bootstrap-d-ph "badge | icon">
 <!ENTITY % bootstrap-d-xref "button | popover | tooltip">
-<!ENTITY % bootstrap-d-bodydiv "accordion | collapse | grid-row | grid-col | tabbed-dialog">
+<!ENTITY % bootstrap-d-bodydiv "accordion | card-group | collapse | grid-row | grid-col | tabbed-dialog">
 <!ENTITY % bootstrap-d-section "accordion-item | alert | card | drawer | pagination">
 <!ENTITY % bootstrap-d-ul "carousel | list-group">
 <!ENTITY % bootstrap-d-ol "stepper">

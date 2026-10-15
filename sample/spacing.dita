@@ -107,5 +107,15 @@
     </example>
 
     <codeblock><coderef href="code/spacing/directional-spacing.xml"/></codeblock>
+    <section id="negative-margin">
+      <title>Negative margin</title>
+      <p>Negative margins are limited to the inline start and end sides. Use <xmlatt>margin="s-1"</xmlatt>, <xmlatt
+        >margin="s-2"</xmlatt>, <xmlatt>margin="e-1"</xmlatt> or <xmlatt>margin="e-2"</xmlatt>.</p>
+    </section>
+    <bodydiv border="1" padding="3">
+      <div margin="s-1" padding="2" border="1">margin="s-1"</div>
+      <div margin="e-2" padding="2" border="1">margin="e-2"</div>
+    </bodydiv>
+    <codeblock><coderef href="code/spacing/negative-margin.xml"/></codeblock>
   </body>
 </topic>

@@ -69,6 +69,11 @@
   striped-columns (yes | no) #IMPLIED
   divider (yes | no) #IMPLIED
   compact (yes | no) #IMPLIED
+  responsive (yes | no) #IMPLIED
+  card (yes | no) #IMPLIED
+  caption (top) #IMPLIED
+  stacked (yes | no) #IMPLIED
+  breakpoint (sm | md | lg | xl | 2xl) #IMPLIED
 >
 <!ATTLIST row %table-theme-atts;>
 <!ATTLIST section %bootstrap-decoration-atts;>
@@ -76,7 +81,6 @@
 <!ATTLIST entry %table-theme-atts;>
 <!ATTLIST thead %table-theme-atts;>
 <!ATTLIST tbody %table-theme-atts;>
-<!ATTLIST tfoot %table-theme-atts;>
 <!ATTLIST sthead %table-theme-atts;>
 <!ATTLIST strow %table-theme-atts;>
 <!ATTLIST stentry %table-theme-atts;>
