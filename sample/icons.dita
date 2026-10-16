@@ -97,30 +97,30 @@
     </bodydiv>
     <codeblock><coderef href="code/icons/dark-link.xml"/></codeblock>
     <p>Icons can also be placed within buttons as shown:</p>
-    <bodydiv deliveryTarget="html" border="1" padding="3">
-      <grid-row>
-        <grid-col padding="1" colspan="3">
+    <bodydiv deliveryTarget="html" border="1" padding="3" margin="b3">
+      <grid-row padding="1">
+        <grid-col colspan="3">
           <button theme="primary" outputclass="btn-icon" href="#"><icon
               outputclass="bi-arrow-down-square-fill"
             /></button>
         </grid-col>
-        <grid-col padding="1" colspan="3">
+        <grid-col colspan="3">
           <button theme="secondary" outputclass="btn-icon" href="#"><icon
               outputclass="bi-chat-left-quote-fill"
             /></button>
         </grid-col>
-        <grid-col padding="1" colspan="3">
+        <grid-col colspan="3">
           <button theme="warning" outputclass="btn-icon" href="#"><icon outputclass="bi-speedometer"/></button>
         </grid-col>
-        <grid-col padding="1" colspan="3">
+        <grid-col colspan="3">
           <button theme="info" outputclass="btn-icon" href="#"><icon outputclass="bi-camera-fill"/></button>
         </grid-col>
       </grid-row>
-      <grid-row>
-        <grid-col padding="1" colspan="3">
+      <grid-row padding="1">
+        <grid-col colspan="3">
           <button theme="accent" outputclass="btn-icon" href="#"><icon outputclass="bi-link"/></button>
         </grid-col>
-        <grid-col padding="1" colspan="9">
+        <grid-col colspan="9">
           <button theme="danger" outputclass="btn-icon" href="#"><icon outputclass="bi-share-fill"/></button>
         </grid-col>
       </grid-row>

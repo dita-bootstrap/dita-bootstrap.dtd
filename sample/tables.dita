@@ -325,17 +325,17 @@
           </thead>
           <tbody>
             <row>
-              <entry>Product A</entry>
+              <entry outputclass="thead">Product A</entry>
               <entry>100</entry>
               <entry>$1,000</entry>
             </row>
             <row>
-              <entry>Product B</entry>
+              <entry outputclass="thead">Product B</entry>
               <entry>150</entry>
               <entry>$1,500</entry>
             </row>
             <row>
-              <entry>Product C</entry>
+              <entry outputclass="thead">Product C</entry>
               <entry>250</entry>
               <entry>$2,500</entry>
             </row>
