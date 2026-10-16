@@ -31,7 +31,7 @@
           style="tabs"</xmlelement> element containing a series of <xmlelement>section</xmlelement> elements
       </p>
     </section>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <tabbed-dialog style="tabs" margin="t3">
         <section>
           <title>Home</title>
@@ -58,11 +58,11 @@
             Stinging like a bee I earned my stripes.</p>
         </section>
       </tabbed-dialog>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/tabs/tabs.xml"/></codeblock>
     <p>The tabs plugin also works with pills using <xmlatt>style="pills"</xmlatt>
     </p>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <tabbed-dialog style="pills" margin="t3">
         <section>
           <title>Home</title>
@@ -89,11 +89,11 @@
             Stinging like a bee I earned my stripes.</p>
         </section>
       </tabbed-dialog>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/tabs/pills.xml"/></codeblock>
     <p>And with vertical pills using <xmlatt>style="vertical-pills"</xmlatt>
     </p>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <tabbed-dialog style="vertical-pills" margin="t3">
         <section>
           <title>Home</title>
@@ -120,7 +120,7 @@
             Stinging like a bee I earned my stripes.</p>
         </section>
       </tabbed-dialog>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/tabs/vertical-pills.xml"/></codeblock>
   </body>
 </topic>

@@ -30,20 +30,20 @@
         immediate parent element by using relative font sizing and <xmlatt>em</xmlatt> units.</p>
       <p>Badges come in three variants: solid (default), subtle, and outline.</p>
     </section>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <p>
         <badge theme="primary">New</badge>
         <badge theme="primary-subtle">New</badge>
         <badge theme="primary-outline">New</badge>
       </p>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/badge/theme-variants.xml"/></codeblock>
 
     <section id="headings">
       <title>Headings</title>
       <p>Badges adapt to the font-size of the parent element.</p>
     </section>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <section>
         <p outputclass="h1">Example heading <badge>New</badge></p>
         <p outputclass="h2">Example heading <badge>New</badge></p>
@@ -52,14 +52,14 @@
         <p outputclass="h5">Example heading <badge>New</badge></p>
         <p outputclass="h6">Example heading <badge>New</badge></p>
       </section>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/badge/example.xml"/></codeblock>
     <section id="variants">
       <title>Variants</title>
       <p>Use the contextual <xmlatt>theme</xmlatt> attribute to apply a semantic theme color to badges, in any of the
         solid, subtle, or outline styles.</p>
     </section>
-    <example>
+    <fig frame="all">
       <p>
         <badge theme="primary">Primary</badge>
         <badge theme="secondary">Secondary</badge>
@@ -90,7 +90,7 @@
         <badge theme="accent-outline">Accent</badge>
         <badge theme="inverse-outline">Inverse</badge>
       </p>
-    </example>
+    </fig>
     <codeblock><coderef href="code/badge/background-colors.xml"/></codeblock>
   </body>
 </topic>

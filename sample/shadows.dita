@@ -26,12 +26,12 @@
         automatically added to prevent the shadow from being clipped by the parent container.</p>
     </section>
 
-    <example>
+    <fig frame="all">
       <div shadow="none" margin="3" padding="3" theme="accent-contrast">No shadow</div>
       <div shadow="sm" margin="3" padding="3" theme="accent-contrast">Small shadow</div>
       <div shadow="yes" margin="3" padding="3" theme="accent-contrast">Regular shadow</div>
       <div shadow="lg" margin="3" padding="3" theme="accent-contrast">Larger shadow</div>
-    </example>
+    </fig>
 
     <codeblock><coderef href="code/shadows/shadow-utilities.xml"/></codeblock>
 
@@ -40,13 +40,13 @@
       <p>Shadows can be applied to complex elements as follow:</p>
     </section>
 
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <card shadow="lg" margin="3" theme="accent-contrast">
         <title>Shadowed Card</title>
         <p>This card has a large shadow.</p>
       </card>
       <alert shadow="sm" theme="accent-contrast">Alert with small shadow</alert>
-    </bodydiv>
+    </fig>
 
     <codeblock><coderef href="code/shadows/applied-shadow.xml"/></codeblock>
   </body>

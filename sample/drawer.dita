@@ -48,13 +48,13 @@
           <xmlatt>props="drawer-toggle"</xmlatt> to an <xmlelement>xref</xmlelement> element to associate a button to
         a drawer</p>
     </section>
-    <bodydiv deliveryTarget="html" border="1" padding="3">
+    <fig frame="all" deliveryTarget="html">
             <button props="drawer-toggle" href="#drawer1">Click here to display drawer</button>
       <drawer id="drawer1" position="start">
         <title>Drawer</title>
         <p>Content for the drawer goes here. You can place just about any section elements here.</p>
       </drawer>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/drawer/drawer-components.xml"/></codeblock>
     <section id="placement">
       <title>Placement</title>
@@ -75,21 +75,21 @@
           the viewport</li>
       </ul>
     </section>
-    <bodydiv deliveryTarget="html" border="1" padding="3">
+    <fig frame="all" deliveryTarget="html">
             <button props="drawer-toggle" href="#drawer2">Toggle right drawer</button>
       <drawer position="end" id="drawer2">
         <title>Drawer</title>
         <p>Content for the drawer goes here. You can place just about any section elements here.</p>
       </drawer>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/drawer/placement.xml"/></codeblock>
-    <bodydiv deliveryTarget="html" border="1" padding="3">
+    <fig frame="all" deliveryTarget="html">
             <button props="drawer-toggle" href="#drawer3">Toggle bottom drawer</button>
       <drawer position="bottom" id="drawer3">
         <title>Drawer</title>
         <p>Content for the drawer goes here. You can place just about any section elements here.</p>
       </drawer>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/drawer/placement-bottom.xml"/></codeblock>
     <section id="responsive">
       <title>Responsive</title>
@@ -98,7 +98,7 @@
         >outputclass="drawer-lg"</xmlatt> hides content in a drawer below the <codeph
         >lg</codeph> breakpoint, but shows the content above the <codeph>lg</codeph> breakpoint.</p>
     </section>
-    <bodydiv deliveryTarget="html" border="1" padding="3">
+    <fig frame="all" deliveryTarget="html">
       <note
         theme="info-contrast"
         outputclass="d-none lg:d-block"
@@ -108,7 +108,7 @@
         <title>Drawer</title>
         <p>This is content within an <xmlatt>outputclass="drawer-lg"</xmlatt>.</p>
       </drawer>
-    </bodydiv>
+    </fig>
     <p>Responsive drawer classes are available across for each breakpoint.</p>
     <ul>
       <li><xmlatt>outputclass="drawer"</xmlatt></li>
@@ -123,37 +123,37 @@
       <title>Sheet</title>
       <p>Set <xmlatt>sheet="yes"</xmlatt> alongside <xmlatt>position</xmlatt> to present the drawer as a sheet.</p>
     </section>
-    <bodydiv deliveryTarget="html" border="1" padding="3">
+    <fig frame="all" deliveryTarget="html">
       <button props="drawer-toggle" href="#drawer-sheet-1">Toggle sheet drawer</button>
       <drawer id="drawer-sheet-1" position="bottom" sheet="yes">
         <title>Drawer</title>
         <p>Content for the drawer goes here.</p>
       </drawer>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/drawer/sheet.xml"/></codeblock>
     <section id="translucent-drawer">
       <title>Translucent</title>
       <p>Set <xmlatt>translucent="yes"</xmlatt> for a translucent background.</p>
     </section>
-    <bodydiv deliveryTarget="html" border="1" padding="3">
+    <fig frame="all" deliveryTarget="html">
       <button props="drawer-toggle" href="#drawer-translucent-1">Toggle translucent drawer</button>
       <drawer id="drawer-translucent-1" position="start" translucent="yes">
         <title>Drawer</title>
         <p>Content for the drawer goes here.</p>
       </drawer>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/drawer/translucent-drawer.xml"/></codeblock>
     <section id="instant-drawer">
       <title>Instant</title>
       <p>Set <xmlatt>instant="yes"</xmlatt> to disable the open and close animation.</p>
     </section>
-    <bodydiv deliveryTarget="html" border="1" padding="3">
+    <fig frame="all" deliveryTarget="html">
       <button props="drawer-toggle" href="#drawer-instant-1">Toggle instant drawer</button>
       <drawer id="drawer-instant-1" position="start" instant="yes">
         <title>Drawer</title>
         <p>Content for the drawer goes here.</p>
       </drawer>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/drawer/instant-drawer.xml"/></codeblock>
   </body>
 </topic>

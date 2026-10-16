@@ -34,7 +34,7 @@
       <p>Using the most basic table markup, here’s how the default DITA Bootstrap <codeph>.table</codeph>-based tables
         look in Bootstrap.</p>
     </section>
-    <example>
+    <fig frame="all">
       <table>
         <tgroup cols="3">
           <colspec colname="COLSPEC0"/>
@@ -48,14 +48,14 @@
           </tbody>
         </tgroup>
       </table>
-    </example>
+    </fig>
 
     <codeblock><coderef href="code/tables/overview.xml"/></codeblock>
     <section id="variants">
       <title>Variants</title>
       <p>Use contextual classes to color tables, table rows or individual cells.</p>
     </section>
-    <example>
+    <fig frame="all">
       <table theme="primary" padding="1" width="100">
         <tgroup cols="3">
           <thead conref="animals.dita#animals/head">
@@ -85,7 +85,7 @@
           </tbody>
         </tgroup>
       </table>
-    </example>
+    </fig>
 
     <codeblock><coderef href="code/tables/variants.xml"/></codeblock>
     <section id="striped-rows">
@@ -93,7 +93,7 @@
       <p>Use <xmlatt>striped="yes"</xmlatt> to add zebra-striping to any table row
         within the <xmlelement>tbody</xmlelement>.</p>
     </section>
-    <example>
+    <fig frame="all">
       <table striped="yes">
         <tgroup cols="3">
           <colspec colname="COLSPEC0"/>
@@ -107,14 +107,14 @@
           </tbody>
         </tgroup>
       </table>
-    </example>
+    </fig>
     <codeblock><coderef href="code/tables/striped-rows.xml"/></codeblock>
     <section id="striped-columns">
       <title>Striped columns</title>
       <p>Use <xmlatt>striped-columns="yes"</xmlatt> to add zebra-striping to any table column
         within the <xmlelement>tbody</xmlelement>.</p>
     </section>
-    <example>
+    <fig frame="all">
       <table striped-columns="yes">
         <tgroup cols="3">
           <colspec colname="COLSPEC0"/>
@@ -128,14 +128,14 @@
           </tbody>
         </tgroup>
       </table>
-    </example>
+    </fig>
     <codeblock><coderef href="code/tables/striped-columns.xml"/></codeblock>
     <section id="bordered-tables">
       <title>Bordered tables</title>
       <p>Add <xmlatt>rowsep="1"</xmlatt> and <xmlatt
         >colsep="1"</xmlatt> for borders on all sides of the table and cells.</p>
     </section>
-    <example>
+    <fig frame="all">
       <table rowsep="1" colsep="1">
         <tgroup cols="3">
           <colspec colname="COLSPEC0"/>
@@ -149,13 +149,13 @@
           </tbody>
         </tgroup>
       </table>
-    </example>
+    </fig>
     <codeblock><coderef href="code/tables/bordered-tables.xml"/></codeblock>
     <section id="tables-without-borders">
       <title>Tables without borders</title>
       <p>Add <xmlatt>rowsep="0"</xmlatt> and <xmlatt>colsep="0"</xmlatt> for a table without borders.</p>
     </section>
-    <example>
+    <fig frame="all">
       <table rowsep="0" colsep="0">
         <tgroup cols="3">
           <colspec colname="COLSPEC0"/>
@@ -169,14 +169,14 @@
           </tbody>
         </tgroup>
       </table>
-    </example>
+    </fig>
     <codeblock><coderef href="code/tables/tables-without-borders.xml"/></codeblock>
     <section id="small-tables">
       <title>Small tables</title>
       <p>Add <xmlatt>compact="yes"</xmlatt> to make any table more compact by cutting all cell <codeph
         >padding</codeph> in half.</p>
     </section>
-    <example>
+    <fig frame="all">
       <table compact="yes">
         <tgroup cols="3">
           <colspec colname="COLSPEC0"/>
@@ -190,14 +190,14 @@
           </tbody>
         </tgroup>
       </table>
-    </example>
+    </fig>
     <codeblock><coderef href="code/tables/small-tables.xml"/></codeblock>
     <section id="table-group-dividers">
       <title>Table group dividers</title>
       <p>Add a thicker border, darker between table groups—<xmlelement>thead</xmlelement> and <xmlelement
         >tbody</xmlelement>, with <xmlatt>divider="yes"</xmlatt> on the table.</p>
     </section>
-    <example>
+    <fig frame="all">
       <table divider="yes">
         <tgroup cols="3">
           <colspec colname="COLSPEC0"/>
@@ -211,7 +211,7 @@
           </tbody>
         </tgroup>
       </table>
-    </example>
+    </fig>
     <codeblock><coderef href="code/tables/table-group-dividers.xml"/></codeblock>
     <section id="vertical-alignment">
       <title>Vertical alignment</title>
@@ -221,7 +221,7 @@
         >table</xmlelement> and are aligned to the top by default. Use the <xmlatt
         >valign</xmlatt> attribute to re-align where needed.</p>
     </section>
-    <example>
+    <fig frame="all">
       <table outputclass="align-middle">
         <tgroup cols="4">
           <colspec colname="COLSPEC0"/>
@@ -264,7 +264,7 @@
           </tbody>
         </tgroup>
       </table>
-    </example>
+    </fig>
     <codeblock><coderef href="code/tables/vertical-alignment.xml"/></codeblock>
     <section id="table-head">
       <title>Table head</title>
@@ -272,7 +272,7 @@
           <xmlatt>theme="inverse"</xmlatt> to make <xmlelement>thead</xmlelement> elements appear light or dark
         gray.</p>
     </section>
-    <example>
+    <fig frame="all">
       <table>
         <tgroup cols="3">
           <colspec colname="COLSPEC0"/>
@@ -286,9 +286,9 @@
           </tbody>
         </tgroup>
       </table>
-    </example>
+    </fig>
     <codeblock><coderef href="code/tables/table-head.xml"/></codeblock>
-    <example>
+    <fig frame="all">
       <table>
         <tgroup cols="3">
           <colspec colname="COLSPEC0"/>
@@ -302,14 +302,14 @@
           </tbody>
         </tgroup>
       </table>
-    </example>
+    </fig>
     <codeblock><coderef href="code/tables/table-head-colors.xml"/></codeblock>
     <section id="table-footer">
       <title>Footer</title>
       <p>Add a <xmlelement>tfoot</xmlelement> after the <xmlelement
         >tbody</xmlelement> to mark up a table footer row group.</p>
     </section>
-    <example>
+    <fig frame="all">
       <table>
         <title>Monthly Sales Report</title>
         <tgroup cols="3">
@@ -349,14 +349,14 @@
           </tfoot>
         </tgroup>
       </table>
-    </example>
+    </fig>
     <codeblock><coderef href="code/tables/table-footer.xml"/></codeblock>
     <section id="responsive-tables">
       <title>Responsive tables</title>
       <p>Set <xmlatt>responsive="yes"</xmlatt> on a table to scroll horizontally, or add <xmlatt
         >breakpoint="xl"</xmlatt> to scroll only below that breakpoint. The scrolling wrapper is generated automatically.</p>
     </section>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <table responsive="yes" breakpoint="xl">
         <tgroup cols="12">
           <colspec colname="c1"/>
@@ -379,7 +379,7 @@
           </tbody>
         </tgroup>
       </table>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/tables/responsive-tables.xml"/></codeblock>
     <section id="stacked-tables">
       <title>Stacked tables</title>
@@ -387,7 +387,7 @@
         >stacked="yes"</xmlatt> on a table to collapse rows into stacked label and value pairs, optionally below a <xmlatt
         >breakpoint="md"</xmlatt>. Each cell is labelled with its column heading, and the required responsive wrapper is generated automatically.</p>
     </section>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <table stacked="yes" breakpoint="md">
         <tgroup cols="3">
           <colspec colname="c1"/>
@@ -401,13 +401,13 @@
           </tbody>
         </tgroup>
       </table>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/tables/stacked-tables.xml"/></codeblock>
     <section id="card-like-tables">
       <title>Card-like tables</title>
       <p>Set <xmlatt>card="yes"</xmlatt> on a table to round the corners like a card.</p>
     </section>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <table striped="yes" card="yes">
         <tgroup cols="3">
           <colspec colname="c1"/>
@@ -421,14 +421,14 @@
           </tbody>
         </tgroup>
       </table>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/tables/card-like-tables.xml"/></codeblock>
     <section id="caption">
       <title>Caption</title>
       <p>A table <xmlelement>title</xmlelement> renders as the caption, below the table by default. Set <xmlatt
         >caption="top"</xmlatt> to move it above.</p>
     </section>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <table caption="top">
         <title>List of animals</title>
         <tgroup cols="3">
@@ -443,7 +443,7 @@
           </tbody>
         </tgroup>
       </table>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/tables/caption.xml"/></codeblock>
   </body>
 </topic>

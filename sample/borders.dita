@@ -32,7 +32,7 @@
       <title>Borders</title>
       <p>Use border utilities to add or remove an element’s borders. Choose from all borders or one at a time.</p>
     </section>
-    <example>
+    <fig frame="all">
       <div padding="3">
         <ph outputclass="border p-3 border-secondary">&#xA0;border&#xA0;</ph>&#xA0;
         <ph outputclass="border-top p-3 border-secondary">&#xA0;border-top</ph>&#xA0;
@@ -40,7 +40,7 @@
         <ph outputclass="border-bottom p-3 border-secondary">&#xA0;border-bottom</ph>&#xA0;
         <ph outputclass="border-start p-3 border-secondary">&#xA0;border-start</ph>
       </div>
-    </example>
+    </fig>
     <codeblock><coderef href="code/borders/border-utilities.xml"/></codeblock>
 
     <section id="border-specialization">
@@ -49,7 +49,7 @@
         >rounded</xmlatt> attributes provide a semantic way to add borders and rounded corners.</p>
     </section>
 
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <section id="bordered-section" border="yes" padding="2">
         <title>Bordered Section</title>
         <p>This section has a border.</p>
@@ -67,7 +67,7 @@
           <image scope="external" href="https://picsum.photos/600/400?2"/>
         </carousel-item>
       </carousel>
-    </bodydiv>
+    </fig>
 
     <codeblock><coderef href="code/borders/bordered-section.xml"/></codeblock>
     <section id="border-styling">
@@ -80,7 +80,7 @@
         the color of the border.</p>
     </section>
 
-    <example>
+    <fig frame="all">
       <div margin="b3">
         <ph border="keyline" padding="2" margin="e2">Keyline</ph>
         <ph border="1" padding="2" margin="e2">Width 1</ph>
@@ -89,20 +89,20 @@
         <ph border="4" padding="2" margin="e2">Width 4</ph>
         <ph border="5" padding="2" margin="e2">Width 5</ph>
       </div>
-    </example>
+    </fig>
     <codeblock><coderef href="code/borders/border-styling.xml"/></codeblock>
 
-    <example>
+    <fig frame="all">
       <div margin="b3">
         <ph theme="primary-border" padding="2" margin="e2">Primary</ph>
         <ph theme="primary-subtle-border" padding="2" margin="e2">Primary subtle</ph>
         <ph theme="success-border" padding="2" margin="e2">Success</ph>
         <ph theme="danger-border" padding="2" margin="e2">Danger</ph>
       </div>
-    </example>
+    </fig>
     <codeblock><coderef href="code/borders/border-colors.xml"/></codeblock>
 
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <grid-row>
         <grid-col margin="b5">
           <ph border="1" rounded="0" padding="2" margin="e2">Rounded 0</ph>
@@ -121,15 +121,15 @@
           <ph border="1" rounded="9" padding="2" margin="e2">Rounded 9</ph>
         </grid-col>
       </grid-row>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/borders/border-rounding.xml"/></codeblock>
 
-    <example>
+    <fig frame="all">
       <div margin="b3" padding="t3">
         <ph border="1" rounded="circle" padding="4" margin="e5" theme="info-border">Circle</ph>
         <ph border="1" rounded="pill" padding="x4 y2" margin="e2" theme="inverse-border">Pill</ph>
       </div>
-    </example>
+    </fig>
     <codeblock><coderef href="code/borders/border-circle.xml"/></codeblock>
 
     <section id="frames">
@@ -137,7 +137,7 @@
       <p>For DITA elements which support the <xmlatt>frame</xmlatt> attribute, such as <xmlelement>lines</xmlelement>
         and <xmlelement>codeblock</xmlelement>, additional frame borders are automatically added as shown:</p>
     </section>
-    <example>
+    <fig frame="all">
       <p/>
       <codeblock outputclass="language-cpp" frame="sides"><coderef
           href="code/borders/frame-attribute-support.cpp"
@@ -163,7 +163,7 @@ and summer’s lease hath all too short a date:
         </tgroup>
       </table>
       <p/>
-    </example>
+    </fig>
     <codeblock><coderef href="code/borders/frame-attribute-support.xml"/></codeblock>
   </body>
 </topic>

@@ -47,14 +47,14 @@
         >sizing options.</xref>
       </p>
     </section>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <card>
         <title>Card Title</title>
         <image scope="external" href="https://picsum.photos/400/200?a"/>
         <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
         <button href="#">Go Somewhere</button>
       </card>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/card/example.xml"/></codeblock>
     <section id="titles-text-and-links">
       <title>Titles, text, and links</title>
@@ -62,7 +62,7 @@
           <codeph>card-link</codeph> to an <xmlelement>xref</xmlelement> tag.</p>
       <p>Subtitles are used by adding a <xmlelement>div</xmlelement> element.</p>
     </section>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <card>
         <title>Card Title</title>
         <div outputclass="h6">Card Subtitle</div>
@@ -70,7 +70,7 @@
         <xref outputclass="card-link" href="#">Card Link</xref>
         <xref outputclass="card-link" href="#">Another Link</xref>
       </card>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/card/titles-text-and-links.xml"/></codeblock>
     <section id="images">
       <title>Images</title>
@@ -78,12 +78,12 @@
         >card</xmlelement> places an image to the top of the card
       </p>
     </section>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <card>
         <image scope="external" href="https://picsum.photos/400/200?a"/>
         <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
       </card>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/card/images.xml"/></codeblock>
     <section id="header-and-footer">
       <title>Header and footer</title>
@@ -91,7 +91,7 @@
         >card-header</xmlelement> and <xmlelement>card-footer</xmlelement> elements.
       </p>
     </section>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <card>
         <title>Special title treatment</title>
         <card-header>Featured</card-header>
@@ -99,38 +99,38 @@
         <button href="#">Go somewhere</button>
         <card-footer>2 days ago</card-footer>
       </card>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/card/header-and-footer.xml"/></codeblock>
     <section id="card-colors">
       <title>Card Colors</title>
       <p>A card can be colorized by adding a <xmlatt>theme</xmlatt> attribute. This
         applies a contextual background color.</p>
     </section>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <card theme="success">
         <card-header>Success Card</card-header>
         <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
         <button href="#">Go Somewhere</button>
       </card>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/card/card-colors.xml"/></codeblock>
     <section id="translucent-cards">
       <title>Translucent cards</title>
       <p>Set <xmlatt>translucent="yes"</xmlatt> on a card for a translucent background.</p>
     </section>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <card translucent="yes">
         <card-header>Translucent card</card-header>
         <p>Some quick example text for the card.</p>
       </card>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/card/translucent-cards.xml"/></codeblock>
     <section id="card-groups">
       <title>Card groups</title>
       <p>Wrap a set of cards in a <xmlelement
         >card-group</xmlelement> to render them as one attached group of equal-height cards.</p>
     </section>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <card-group>
         <card>
           <card-header>Card</card-header>
@@ -141,7 +141,7 @@
           <p>Some quick example text for the card.</p>
         </card>
       </card-group>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/card/card-groups.xml"/></codeblock>
     <section id="grid-cards">
       <title>Grid cards</title>
@@ -149,7 +149,7 @@
         >grid-row</xmlelement> to control how many cards appear per row, and wrap each card in a <xmlelement
         >grid-col</xmlelement>.</p>
     </section>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <grid-row cols="2" gap="4">
         <grid-col>
           <card><card-header>Card</card-header><p>Some quick example text for the card.</p></card>
@@ -158,7 +158,7 @@
           <card><card-header>Card</card-header><p>Some quick example text for the card.</p></card>
         </grid-col>
       </grid-row>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/card/grid-cards.xml"/></codeblock>
   </body>
 </topic>

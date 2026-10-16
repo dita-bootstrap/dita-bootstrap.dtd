@@ -1,3 +1,6 @@
-<div margin="s-1">
-  ...etc
+<div theme="primary-contrast" padding="1">
+  <div theme="primary-subtle" padding="2" margin="s-2">Negative margin Start 2</div>
+</div>
+<div theme="danger-contrast" padding="1">
+  <div theme="danger-subtle" padding="2" margin="e-2">Negative margin End 2</div>
 </div>

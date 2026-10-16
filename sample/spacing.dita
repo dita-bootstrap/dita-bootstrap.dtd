@@ -27,7 +27,7 @@
         >auto</codeph>.</p>
     </section>
 
-    <example>
+    <fig frame="all">
       <div theme="primary-contrast" margin="0" padding="2">Margin 0</div>
       <div theme="secondary-contrast" margin="1" padding="2">Margin 1</div>
       <div theme="success-contrast" margin="2" padding="2">Margin 2</div>
@@ -37,7 +37,7 @@
       <div theme="primary-contrast" margin="6" padding="2">Margin 6</div>
       <div theme="secondary-contrast" margin="12" padding="2">Margin 12</div>
       <div theme="accent-contrast" margin="auto" padding="2" width="50">Margin Auto</div>
-    </example>
+    </fig>
 
     <codeblock><coderef href="code/spacing/margin.xml"/></codeblock>
 
@@ -47,7 +47,7 @@
         >padding</xmlatt> attribute controls the internal spacing of an element, supporting values from 0 to 12.</p>
     </section>
 
-    <example>
+    <fig frame="all">
       <div theme="primary-contrast" padding="0">Padding 0</div>
       <div theme="secondary-contrast" padding="1" margin="1"><div
           width="100"
@@ -77,7 +77,7 @@
           width="100"
           outputclass="theme-secondary theme-subtle"
         >Padding 12</div></div>
-    </example>
+    </fig>
 
     <codeblock><coderef href="code/spacing/padding.xml"/></codeblock>
 
@@ -96,7 +96,7 @@
       <p>Multiple values can be specified as a space-separated list.</p>
     </section>
 
-    <example>
+    <fig frame="all">
       <div theme="primary-contrast" margin="t5 b0">Margin Top 5, Bottom 0</div>
       <div theme="secondary-contrast" margin="x3">Margin Horizontal 3</div>
       <div theme="success-contrast" padding="y5"><div width="100" theme="success-subtle">Padding Vertical 5</div></div>
@@ -104,7 +104,7 @@
           width="100"
           theme="danger-subtle"
         >Padding Start 3, End 1</div></div>
-    </example>
+    </fig>
 
     <codeblock><coderef href="code/spacing/directional-spacing.xml"/></codeblock>
     <section id="negative-margin">
@@ -112,10 +112,18 @@
       <p>Negative margins are limited to the inline start and end sides. Use <xmlatt>margin="s-1"</xmlatt>, <xmlatt
         >margin="s-2"</xmlatt>, <xmlatt>margin="e-1"</xmlatt> or <xmlatt>margin="e-2"</xmlatt>.</p>
     </section>
-    <bodydiv border="1" padding="3">
-      <div margin="s-1" padding="2" border="1">margin="s-1"</div>
-      <div margin="e-2" padding="2" border="1">margin="e-2"</div>
-    </bodydiv>
+    <fig frame="all">
+      <div theme="primary-contrast" padding="1"><div
+          theme="primary-subtle"
+          padding="2"
+          margin="s-2"
+        >Negative margin Start 2</div></div>
+      <div theme="danger-contrast" padding="1"><div
+          theme="danger-subtle"
+          padding="2"
+          margin="e-2"
+        >Negative margin End 2</div></div>
+    </fig>
     <codeblock><coderef href="code/spacing/negative-margin.xml"/></codeblock>
   </body>
 </topic>

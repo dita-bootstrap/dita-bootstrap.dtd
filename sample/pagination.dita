@@ -35,7 +35,7 @@
     </metadata>
   </prolog>
   <body outputclass="language-markup">
-    <bodydiv deliveryTarget="html" border="1" padding="3">
+    <fig frame="all" deliveryTarget="html">
       <pagination>
         <title>Page navigation example</title>
         <ol>
@@ -56,14 +56,14 @@
           </li>
         </ol>
       </pagination>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/pagination/example.xml"/></codeblock>
     <section id="variants">
       <title>Variants</title>
       <p>Add a <xmlatt>theme</xmlatt> attribute to a pagination list to apply a semantic theme color across the
         component, including hover, focus, and the active page item.</p>
     </section>
-    <bodydiv deliveryTarget="html" border="1" padding="3">
+    <fig frame="all" deliveryTarget="html">
       <pagination theme="primary">
         <title>Page navigation example</title>
         <ol>
@@ -144,7 +144,7 @@
           <li><xref href="#">Next</xref></li>
         </ol>
       </pagination>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/pagination/variants.xml"/></codeblock>
 
     <section id="sizing">
@@ -152,7 +152,7 @@
       <p>Fancy larger or smaller pagination? Use <xmlatt>size="large"</xmlatt> or
           <xmlatt>size="small"</xmlatt> for additional sizes.</p>
     </section>
-    <bodydiv deliveryTarget="html" border="1" padding="3">
+    <fig frame="all" deliveryTarget="html">
       <pagination size="large">
         <title>Page navigation example</title>
         <ol>
@@ -173,9 +173,9 @@
           </li>
         </ol>
       </pagination>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/pagination/sizing.xml"/></codeblock>
-    <bodydiv deliveryTarget="html" border="1" padding="3">
+    <fig frame="all" deliveryTarget="html">
       <pagination size="small">
         <title>Page navigation example</title>
         <ol>
@@ -196,7 +196,7 @@
           </li>
         </ol>
       </pagination>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/pagination/small-pagination.xml"/></codeblock>
     <section id="alignment">
       <title>Alignment</title>
@@ -209,7 +209,7 @@
         to the <xmlatt>outputclass</xmlatt>
       </p>
     </section>
-    <bodydiv deliveryTarget="html" border="1" padding="3">
+    <fig frame="all" deliveryTarget="html">
       <pagination outputclass="justify-content-center">
         <title>Page navigation example</title>
         <ol>
@@ -230,9 +230,9 @@
           </li>
         </ol>
       </pagination>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/pagination/alignment.xml"/></codeblock>
-    <bodydiv deliveryTarget="html" border="1" padding="3">
+    <fig frame="all" deliveryTarget="html">
       <pagination outputclass="justify-content-end">
         <title>Page navigation example</title>
         <ol>
@@ -253,7 +253,7 @@
           </li>
         </ol>
       </pagination>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/pagination/alignment-end.xml"/></codeblock>
   </body>
 </topic>

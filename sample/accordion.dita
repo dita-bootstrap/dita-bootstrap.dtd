@@ -40,7 +40,7 @@
       <title>Example</title>
       <p>Click the accordions below to expand/collapse the accordion content.</p>
     </section>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <accordion>
         <accordion-item id="accordion1" open="yes">
           <title>Accordion Item #1</title>
@@ -67,7 +67,7 @@
             Bootstrap’s default variables.</p>
         </accordion-item>
       </accordion>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/accordion/example.xml"/></codeblock>
     <section id="flush">
       <title>Flush</title>
@@ -75,7 +75,7 @@
         background-color, some borders, and some rounded corners to render accordions edge-to-edge with their parent
         container.</p>
     </section>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <accordion flush="yes">
         <accordion-item id="accordion4">
           <title>Accordion Item #1</title>
@@ -96,14 +96,14 @@
             to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</p>
         </accordion-item>
       </accordion>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/accordion/flush.xml"/></codeblock>
 
     <section id="always-open">
       <title>Always open</title>
       <p>Set <xmlatt>open="yes"</xmlatt> to make accordion items stay open when another item is opened.</p>
     </section>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <accordion open="yes">
         <accordion-item id="accordion7" open="yes">
           <title>Accordion Item #1</title>
@@ -130,33 +130,33 @@
             Bootstrap’s default variables.</p>
         </accordion-item>
       </accordion>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/accordion/always-open.xml"/></codeblock>
     <section id="small">
       <title>Small</title>
       <p>Set <xmlatt>size="small"</xmlatt> to tighten the padding, border radius and font size.</p>
     </section>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <accordion size="small">
         <accordion-item id="acc-sm1"><title>Accordion Item #1</title><p
           >This is the first item's accordion body.</p></accordion-item>
         <accordion-item id="acc-sm2"><title>Accordion Item #2</title><p
           >This is the second item's accordion body.</p></accordion-item>
       </accordion>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/accordion/small.xml"/></codeblock>
     <section id="gap">
       <title>Gap</title>
       <p>Set <xmlatt>gap="yes"</xmlatt> to separate each item into its own rounded card.</p>
     </section>
-    <bodydiv border="1" padding="3">
+    <fig frame="all">
       <accordion gap="yes">
         <accordion-item id="acc-gap1"><title>Accordion Item #1</title><p
           >This is the first item's accordion body.</p></accordion-item>
         <accordion-item id="acc-gap2"><title>Accordion Item #2</title><p
           >This is the second item's accordion body.</p></accordion-item>
       </accordion>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/accordion/gap.xml"/></codeblock>
   </body>
 </topic>

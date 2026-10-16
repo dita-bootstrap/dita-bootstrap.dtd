@@ -31,69 +31,69 @@
     </metadata>
   </prolog>
   <body outputclass="language-markup">
-    <bodydiv deliveryTarget="html" border="1" padding="3">
+    <fig frame="all" deliveryTarget="html">
       <stepper>
         <stepper-item active="yes">Create account</stepper-item>
         <stepper-item active="yes">Confirm email</stepper-item>
         <stepper-item>Update profile</stepper-item>
         <stepper-item>Finish</stepper-item>
       </stepper>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/stepper/example.xml"/></codeblock>
     <section id="horizontal">
       <title>Horizontal</title>
       <p>Set <xmlatt>orientation="horizontal"</xmlatt> on the <xmlelement
         >stepper</xmlelement> for a horizontal layout.</p>
     </section>
-    <bodydiv deliveryTarget="html" border="1" padding="3">
+    <fig frame="all" deliveryTarget="html">
       <stepper orientation="horizontal">
         <stepper-item active="yes">Create account</stepper-item>
         <stepper-item active="yes">Confirm email</stepper-item>
         <stepper-item>Update profile</stepper-item>
         <stepper-item>Finish</stepper-item>
       </stepper>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/stepper/horizontal.xml"/></codeblock>
     <section id="vertical">
       <title>Vertical</title>
       <p>Set <xmlatt>orientation="vertical"</xmlatt> on the <xmlelement
         >stepper</xmlelement> to force a vertical layout.</p>
     </section>
-    <bodydiv deliveryTarget="html" border="1" padding="3">
+    <fig frame="all" deliveryTarget="html">
       <stepper orientation="vertical">
         <stepper-item active="yes">Create account</stepper-item>
         <stepper-item active="yes">Confirm email</stepper-item>
         <stepper-item>Update profile</stepper-item>
         <stepper-item>Finish</stepper-item>
       </stepper>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/stepper/vertical.xml"/></codeblock>
     <section id="responsive">
       <title>Responsive</title>
       <p>Add a <xmlatt>breakpoint</xmlatt> attribute alongside <xmlatt
         >orientation="horizontal"</xmlatt> to switch layout at that breakpoint.</p>
     </section>
-    <bodydiv deliveryTarget="html" border="1" padding="3">
+    <fig frame="all" deliveryTarget="html">
       <stepper orientation="horizontal" breakpoint="sm">
         <stepper-item active="yes">Create account</stepper-item>
         <stepper-item active="yes">Confirm email</stepper-item>
         <stepper-item>Update profile</stepper-item>
         <stepper-item>Finish</stepper-item>
       </stepper>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/stepper/responsive.xml"/></codeblock>
     <section id="variants">
       <title>Variants</title>
       <p>Add a <xmlatt>theme</xmlatt> attribute to individual <xmlelement>stepper-item</xmlelement> elements.</p>
     </section>
-    <bodydiv deliveryTarget="html" border="1" padding="3">
+    <fig frame="all" deliveryTarget="html">
       <stepper>
         <stepper-item active="yes" theme="success">Create account</stepper-item>
         <stepper-item active="yes" theme="danger">Confirm email</stepper-item>
         <stepper-item active="yes" theme="primary">Update profile</stepper-item>
         <stepper-item active="yes" theme="accent">Finish</stepper-item>
       </stepper>
-    </bodydiv>
+    </fig>
     <codeblock><coderef href="code/stepper/variants.xml"/></codeblock>
   </body>
 </topic>
