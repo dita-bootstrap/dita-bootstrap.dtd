@@ -30,7 +30,7 @@
       <title>Installing</title>
       <p>Use the <cmdname>dita</cmdname> command to add the plug-ins to your DITA Open Toolkit installation:</p>
     </section>
-     <accordion>
+     <accordion gap="yes">
         <accordion-item open="yes">
         <title>DITA-OT 3.5 and newer</title>
           <ol>  
