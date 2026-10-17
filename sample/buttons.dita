@@ -31,7 +31,9 @@
         class to apply different visual styles for a specific button variant and theme.</p>
     </section>
     <fig frame="all">
-      <button>Base class</button>
+      <p>
+        <button>Base class</button>
+      </p>
     </fig>
     <codeblock><coderef href="code/buttons/base-class.xml"/></codeblock>
 
@@ -276,10 +278,10 @@
     </section>
     <fig frame="all" margin="b3">
       <grid-row padding="1">
-        <grid-col colspan="3">
+        <grid-col>
           <button href="#" theme="primary" size="large">Large button</button>
         </grid-col>
-        <grid-col colspan="9">
+        <grid-col>
           <button href="#" theme="secondary" size="large">Large button</button>
         </grid-col>
       </grid-row>
@@ -289,10 +291,10 @@
 
     <fig frame="all" margin="b3">
       <grid-row padding="1">
-        <grid-col colspan="3">
+        <grid-col>
           <button href="#" theme="primary" size="small">Small button</button>
         </grid-col>
-        <grid-col colspan="9">
+        <grid-col>
           <button href="#" theme="secondary" size="small">Small button</button>
         </grid-col>
       </grid-row>
@@ -302,10 +304,10 @@
 
     <fig frame="all" margin="b3">
       <grid-row padding="1">
-        <grid-col colspan="3">
+        <grid-col>
           <button href="#" theme="primary" size="xs">Extra small button</button>
         </grid-col>
-        <grid-col colspan="9">
+        <grid-col>
           <button href="#" theme="secondary" size="xs">Extra small button</button>
         </grid-col>
       </grid-row>
