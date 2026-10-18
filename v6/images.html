@@ -314,7 +314,7 @@
           <code class="ph codeph language-markup">max-width: 100%;</code> and <code class="ph codeph language-markup">height: auto;</code> to the image so that it scales with the
         parent element.</p>
     </section>
-    <figure class="fig figure w-100 max-w-100 p-3 border">
+    <figure class="fig figure p-3 border">
       <img class="image img-fluid border rounded" src="https://picsum.photos/1200/600?a">
     </figure>
 
@@ -326,7 +326,7 @@
           utilities</a>, you can use the specialized <code class="keyword markupname xmlelement">&lt;thumbnail&gt;</code> element to give an image
         a rounded 1px border appearance.</p>
     </section>
-    <figure class="fig figure w-100 max-w-100 p-3 border">
+    <figure class="fig figure p-3 border">
       <img class="image thumbnail img-fluid border rounded img-thumbnail" src="https://picsum.photos/100/100?a"><br>
     </figure>
 
@@ -338,7 +338,7 @@
         to display different images when in dark mode.</p>
     </section>
     <div class="example p-3 border">
-      <figure class="fig figure w-100 max-w-100 p-3">
+      <figure class="fig figure p-3">
         <img class="image thumbnail img-fluid border rounded d-auto" src="https://picsum.photos/id/730/300/200"><br>
         <img class="image thumbnail img-fluid border rounded d-light" src="https://picsum.photos/id/730/300/200"><br>
         <img class="image thumbnail img-fluid border rounded d-dark" src="https://picsum.photos/id/724/300/200"><br>
@@ -364,7 +364,7 @@
       different media. The <code class="keyword markupname xmlatt">@media</code> attribute defines the media query and/or
       <code class="keyword markupname xmlatt">@type</code> the image MIME type. The final <code class="keyword markupname xmlelement">&lt;image&gt;</code> is the default.</p>
     </section>
-    <figure class="fig figure w-100 max-w-100 p-3 border">
+    <figure class="fig figure p-3 border">
       <p class="p">Change the width of the browser to view different images:</p>
       <picture class="div picture d-picture"><source srcset="https://picsum.photos/id/1/800/400" media="(min-width: 700px)"><source srcset="https://picsum.photos/id/4/400/200" media="(min-width: 450px)"><source srcset="https://picsum.photos/id/5/200/200.jpg" type="image/jpeg"><source srcset="https://picsum.photos/id/5/200/200.webp" type="image/webp"><img class="image img-fluid border rounded" src="https://picsum.photos/id/3/200/200"></picture>
     </figure>
