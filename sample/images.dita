@@ -53,21 +53,19 @@
         to display different images when in dark mode.</p>
     </section>
     <example>
-      <div outputclass="p-3 border">
-        <thumbnail outputclass="d-auto" scope="external" href="https://picsum.photos/id/730/300/200"/>
-        <thumbnail
-          outputclass="d-light"
-          scope="external"
-          href="https://picsum.photos/id/730/300/200"
-          deliveryTarget="html"
-        />
-        <thumbnail
-          outputclass="d-dark"
-          scope="external"
-          href="https://picsum.photos/id/724/300/200"
-          deliveryTarget="html"
-        />
-      </div>
+      <thumbnail outputclass="d-auto" scope="external" href="https://picsum.photos/id/730/300/200"/>
+      <thumbnail
+        outputclass="d-light"
+        scope="external"
+        href="https://picsum.photos/id/730/300/200"
+        deliveryTarget="html"
+      />
+      <thumbnail
+        outputclass="d-dark"
+        scope="external"
+        href="https://picsum.photos/id/724/300/200"
+        deliveryTarget="html"
+      />
     </example>
     <codeblock><coderef href="code/images/separate-images-for-dark.xml"/></codeblock>
     <section id="support-lazy-loading">
