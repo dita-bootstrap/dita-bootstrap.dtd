@@ -102,7 +102,7 @@
       <p>Many specialized components also support the <xmlatt>theme</xmlatt> attribute for consistent theming.</p>
     </section>
 
-    <fig frame="all">
+    <bodydiv outputclass="p-3 border">
 
       <thumbnail scope="external" href="https://picsum.photos/100/100?a" theme="warning-contrast"/>
       <card theme="success" width="50" margin="t2">
@@ -133,7 +133,7 @@
           <image scope="external" href="https://picsum.photos/1200/600?c"/>
         </carousel-item>
       </carousel>
-    </fig>
+    </bodydiv>
 
     <codeblock><coderef href="code/color/specialized-elements.xml"/></codeblock>
 
